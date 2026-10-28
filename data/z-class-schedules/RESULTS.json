@@ -1,0 +1,814 @@
+{
+  "campaign": {
+    "counts": {
+      "SAT": 3,
+      "UNKNOWN": 11,
+      "UNSAT": 0
+    },
+    "screen_cap_seconds": 2,
+    "solver": "cadical195",
+    "supports": [
+      {
+        "clauses": 90854,
+        "id": "Z00",
+        "last_active": 38,
+        "reason": "reduced-core plus absolute-lift witness",
+        "result": "results/Z00_witness.json",
+        "status": "SAT",
+        "support": [
+          1,
+          3,
+          8,
+          16,
+          17,
+          31,
+          38
+        ],
+        "variables": 26057
+      },
+      {
+        "clauses": 91594,
+        "id": "Z01",
+        "last_active": 38,
+        "reason": "reduced-core plus absolute-lift witness",
+        "result": "results/Z01_witness.json",
+        "status": "SAT",
+        "support": [
+          1,
+          6,
+          14,
+          15,
+          29,
+          36,
+          38
+        ],
+        "variables": 26258
+      },
+      {
+        "clauses": 91162,
+        "id": "Z02",
+        "last_active": 26,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          1,
+          9,
+          10,
+          12,
+          17,
+          25,
+          26
+        ],
+        "variables": 26150
+      },
+      {
+        "clauses": 90113,
+        "id": "Z03",
+        "last_active": 33,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          2,
+          3,
+          5,
+          10,
+          18,
+          19,
+          33
+        ],
+        "variables": 25881
+      },
+      {
+        "clauses": 90113,
+        "id": "Z04",
+        "last_active": 33,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          2,
+          4,
+          5,
+          10,
+          18,
+          19,
+          33
+        ],
+        "variables": 25881
+      },
+      {
+        "clauses": 89063,
+        "id": "Z05",
+        "last_active": 27,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          2,
+          10,
+          11,
+          13,
+          18,
+          26,
+          27
+        ],
+        "variables": 25573
+      },
+      {
+        "clauses": 88014,
+        "id": "Z06",
+        "last_active": 34,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          3,
+          4,
+          6,
+          11,
+          19,
+          20,
+          34
+        ],
+        "variables": 25304
+      },
+      {
+        "clauses": 88014,
+        "id": "Z07",
+        "last_active": 34,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          3,
+          5,
+          6,
+          11,
+          19,
+          20,
+          34
+        ],
+        "variables": 25304
+      },
+      {
+        "clauses": 85915,
+        "id": "Z08",
+        "last_active": 35,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          4,
+          5,
+          7,
+          12,
+          20,
+          21,
+          35
+        ],
+        "variables": 24727
+      },
+      {
+        "clauses": 85915,
+        "id": "Z09",
+        "last_active": 35,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          4,
+          6,
+          7,
+          12,
+          20,
+          21,
+          35
+        ],
+        "variables": 24727
+      },
+      {
+        "clauses": 82982,
+        "id": "Z10",
+        "last_active": 38,
+        "reason": "reduced-core plus absolute-lift witness",
+        "result": "results/Z10_witness.json",
+        "status": "SAT",
+        "support": [
+          4,
+          12,
+          13,
+          27,
+          34,
+          36,
+          38
+        ],
+        "variables": 23864
+      },
+      {
+        "clauses": 83816,
+        "id": "Z11",
+        "last_active": 36,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          5,
+          6,
+          8,
+          13,
+          21,
+          22,
+          36
+        ],
+        "variables": 24150
+      },
+      {
+        "clauses": 83816,
+        "id": "Z12",
+        "last_active": 36,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          5,
+          7,
+          8,
+          13,
+          21,
+          22,
+          36
+        ],
+        "variables": 24150
+      },
+      {
+        "clauses": 83507,
+        "id": "Z13",
+        "last_active": 33,
+        "reason": "2-second wall-clock cap",
+        "result": null,
+        "status": "UNKNOWN",
+        "support": [
+          5,
+          12,
+          13,
+          19,
+          26,
+          27,
+          33
+        ],
+        "variables": 24018
+      }
+    ],
+    "warning": "UNKNOWN rows are only bounded screens. SAT requires integer replay; UNSAT is a completed solver result but no proof certificate is claimed."
+  },
+  "family_dimensions": {
+    "Z00": {
+      "exact_schedule_log2": null,
+      "reason": "The fixed W31 pin depends structurally on all sixteen input words; no residual-free absorber chart was established."
+    },
+    "Z01": {
+      "exact_schedule_log2": null,
+      "reason": "The fixed W29 pin depends structurally on all sixteen input words; no residual-free absorber chart was established."
+    },
+    "Z10": {
+      "exact_delta_pair_lower_bound_log2": 16,
+      "exact_schedule_log2": 384,
+      "state_interface": "S39=0 iff at S38 delta a..g=0 and delta h=-dW38"
+    }
+  },
+  "input_bindings": [
+    {
+      "bytes": 38024,
+      "path": "inputs/support_classes.json",
+      "sha256": "c38e762738e4524f20122aa594ae60106b4c3b3d2098ff6926ff7a257f1639cc"
+    },
+    {
+      "bytes": 18743,
+      "path": "inputs/aig.py",
+      "sha256": "3335ea66d4deb08b65d16ccb712475212c0c40a354e64998c929c5a9e2f6945e"
+    },
+    {
+      "bytes": 6131,
+      "path": "inputs/census.py",
+      "sha256": "0f3eaac152b9a6827fa0fc835f6ef0ecfb0af457dd5ef4a09120aad826b6469d"
+    },
+    {
+      "bytes": 6313,
+      "path": "inputs/z10_state_no_go/cluster_sat.py",
+      "sha256": "0ebb21c09a2d947d511950c6799ce0fdf2eed3041691cf78cc53d0f719365bec"
+    },
+    {
+      "bytes": 203,
+      "path": "inputs/z10_state_no_go/early_free.json",
+      "sha256": "d0d75e28f4297944e2171ec52ab55f6a1d1724314b2ad2522b1b17658602f067"
+    },
+    {
+      "bytes": 203,
+      "path": "inputs/z10_state_no_go/early_fixediv.json",
+      "sha256": "21f8d7a7ec34e0805580939c87cfd17fae83c4d8f0494c6f965a3cba6e06d7bb"
+    }
+  ],
+  "optional_class_C": {
+    "attempted": false,
+    "reason": "Priority class-Z work produced three W38 schedule witnesses and the remaining time was used to characterize and independently freeze the Z10 family."
+  },
+  "scope": "Exact SHA-256 schedule feasibility for fourteen open class-Z weight-7 supports. State and fixed-IV collision construction are separate.",
+  "state_diagnostics": {
+    "Z00": {
+      "S38_terminal_residual": [
+        "0aea5002",
+        "9d5f7907",
+        "051720f7",
+        "b26c2a84",
+        "73642015",
+        "f8ddc814",
+        "45c0feac",
+        "85919807"
+      ],
+      "S38_terminal_weight": 112,
+      "S39": {
+        "boundary": 39,
+        "delta": [
+          "1363b5c7",
+          "0aea5002",
+          "9d5f7907",
+          "051720f7",
+          "d539a211",
+          "73642015",
+          "f8ddc814",
+          "45c0feac"
+        ],
+        "support": 8,
+        "weight": 118
+      },
+      "S40": {
+        "boundary": 40,
+        "delta": [
+          "1587076a",
+          "1363b5c7",
+          "0aea5002",
+          "9d5f7907",
+          "4b7d6f77",
+          "d539a211",
+          "73642015",
+          "f8ddc814"
+        ],
+        "support": 8,
+        "weight": 124
+      },
+      "max_boundary_weight": 142,
+      "minimum_nonzero_boundary_weight": 32,
+      "state_collision": false,
+      "support": [
+        1,
+        3,
+        8,
+        16,
+        17,
+        31,
+        38
+      ]
+    },
+    "Z01": {
+      "S38_terminal_residual": [
+        "fc972cda",
+        "2789924f",
+        "91adf919",
+        "09db1383",
+        "2e20701a",
+        "ff38903c",
+        "d5cfd9c3",
+        "7f24fe83"
+      ],
+      "S38_terminal_weight": 132,
+      "S39": {
+        "boundary": 39,
+        "delta": [
+          "d38d3e1d",
+          "fc972cda",
+          "2789924f",
+          "91adf919",
+          "7ac3994a",
+          "2e20701a",
+          "ff38903c",
+          "d5cfd9c3"
+        ],
+        "support": 8,
+        "weight": 133
+      },
+      "S40": {
+        "boundary": 40,
+        "delta": [
+          "951fa468",
+          "d38d3e1d",
+          "fc972cda",
+          "2789924f",
+          "da1ff8c1",
+          "7ac3994a",
+          "2e20701a",
+          "ff38903c"
+        ],
+        "support": 8,
+        "weight": 129
+      },
+      "max_boundary_weight": 140,
+      "minimum_nonzero_boundary_weight": 26,
+      "state_collision": false,
+      "support": [
+        1,
+        6,
+        14,
+        15,
+        29,
+        36,
+        38
+      ]
+    },
+    "Z10": {
+      "S38_terminal_residual": [
+        "f060181c",
+        "43816306",
+        "04c20c35",
+        "38fd1013",
+        "6c0e9e4c",
+        "29af62e8",
+        "318c3717",
+        "fec812ca"
+      ],
+      "S38_terminal_weight": 108,
+      "S39": {
+        "boundary": 39,
+        "delta": [
+          "ea545bdd",
+          "f060181c",
+          "43816306",
+          "04c20c35",
+          "fe674e92",
+          "6c0e9e4c",
+          "29af62e8",
+          "318c3717"
+        ],
+        "support": 8,
+        "weight": 116
+      },
+      "S40": {
+        "boundary": 40,
+        "delta": [
+          "f7086374",
+          "ea545bdd",
+          "f060181c",
+          "43816306",
+          "d16fe8bc",
+          "fe674e92",
+          "6c0e9e4c",
+          "29af62e8"
+        ],
+        "support": 8,
+        "weight": 126
+      },
+      "max_boundary_weight": 138,
+      "minimum_nonzero_boundary_weight": 22,
+      "state_collision": false,
+      "support": [
+        4,
+        12,
+        13,
+        27,
+        34,
+        36,
+        38
+      ]
+    },
+    "scope": "Three fixed schedule witnesses under the standard IV; no population inference."
+  },
+  "systems": {
+    "all_dW39_automatic_zero": true,
+    "count": 14,
+    "source": "results/systems.json"
+  },
+  "verdict": {
+    "ordinary_collision_found": false,
+    "priority_w38_supports_sat": 3,
+    "remaining_class_Z_unknown": 11,
+    "schedule_pass_gate": true,
+    "state_root_found": false,
+    "status": "SCHEDULE_GO__STATE_HOLD"
+  },
+  "w38_witnesses": {
+    "Z00": {
+      "dW39": "00000000",
+      "deltas": {
+        "1": "53c8f60d",
+        "16": "655b5c5d",
+        "17": "53c8f60d",
+        "3": "975f6a58",
+        "31": "227488e5",
+        "38": "227488e5",
+        "8": "ac3709f3"
+      },
+      "integer_replay": true,
+      "result": "results/Z00_witness.json",
+      "support": [
+        1,
+        3,
+        8,
+        16,
+        17,
+        31,
+        38
+      ]
+    },
+    "Z01": {
+      "dW39": "00000000",
+      "deltas": {
+        "1": "4ab4118d",
+        "14": "18a8ef9a",
+        "15": "20e929e1",
+        "29": "ace5ce51",
+        "36": "ace5ce51",
+        "38": "b0ea025e",
+        "6": "df16d61f"
+      },
+      "integer_replay": true,
+      "result": "results/Z01_witness.json",
+      "support": [
+        1,
+        6,
+        14,
+        15,
+        29,
+        36,
+        38
+      ]
+    },
+    "Z10": {
+      "dW39": "00000000",
+      "deltas": {
+        "12": "2354dd23",
+        "13": "fef861de",
+        "27": "7968b299",
+        "34": "7968b299",
+        "36": "1132700d",
+        "38": "95fb8eff",
+        "4": "01079e22"
+      },
+      "integer_replay": true,
+      "result": "results/Z10_witness.json",
+      "support": [
+        4,
+        12,
+        13,
+        27,
+        34,
+        36,
+        38
+      ]
+    }
+  },
+  "z00_valuation": {
+    "conclusion": "The v2(d1)=31 class is the singleton top-bit chamber and is UNSAT. Both members of the adjacent v2(d1)=30 class are SAT with integer-replayed reduced cores, so the obstruction does not extend to the next 2-adic valuation class. The full support is SAT at d1=53c8f60d and has a genuine schedule lift.",
+    "orientation": "partner minus base mod 2^32",
+    "support": [
+      1,
+      3,
+      8,
+      16,
+      17,
+      31,
+      38
+    ],
+    "valuation_30": {
+      "classification": "complete",
+      "members": [
+        "40000000",
+        "c0000000"
+      ],
+      "rows": [
+        {
+          "delta": "40000000",
+          "deltas": {
+            "1": "40000000",
+            "16": "16803000",
+            "17": "40000000",
+            "3": "002fd800",
+            "31": "9a770ab3",
+            "38": "9a770ab3",
+            "8": "c0000000"
+          },
+          "integer_replay": true,
+          "source": "results/Z00_v30_40000000.json",
+          "verdict": "SAT"
+        },
+        {
+          "delta": "c0000000",
+          "deltas": {
+            "1": "c0000000",
+            "16": "16803000",
+            "17": "c0000000",
+            "3": "ffd00800",
+            "31": "5f68cad7",
+            "38": "5f68cad7",
+            "8": "40000000"
+          },
+          "integer_replay": true,
+          "source": "results/Z00_v30_c0000000.json",
+          "verdict": "SAT"
+        }
+      ],
+      "verdict": "SAT_ALL_MEMBERS"
+    },
+    "valuation_31": {
+      "classification": "complete",
+      "members": [
+        "80000000"
+      ],
+      "source": "results/Z00_top.json",
+      "verdict": "UNSAT"
+    }
+  },
+  "z10_family": {
+    "dW39_automatic_zero": true,
+    "delta_family_exact_lower_bound_log2": 16,
+    "delta_family_lower_bound_certificate": "All 2^16 low-half values of coordinate W5 with every other coordinate zero give distinct (dW36,dW38) pairs.",
+    "derivation": "Choose W5..W10 and W14..W19; derive W20 from the W4 pin, W21..W25 forward, W11 from the W27 pin, then W0..W4 backward.",
+    "fixed_core_deltas": [
+      4,
+      12,
+      13,
+      27,
+      34
+    ],
+    "free_words": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "injective": true,
+    "limit": "A schedule chart and terminal interface are not a differential characteristic or fixed-IV collision construction.",
+    "sample": {
+      "S38_boundary_weight_max": 155,
+      "S38_boundary_weight_mean": 128.01513671875,
+      "S38_boundary_weight_min": 100,
+      "S39_weight_max": 154,
+      "S39_weight_mean": 127.960205078125,
+      "S39_weight_min": 102,
+      "distinct_dW36_dW38_pairs": 4096,
+      "points": 4096,
+      "scope": "Deterministic frozen sample; it is not a probability or root-count theorem.",
+      "state_roots": 0
+    },
+    "saved_point": {
+      "S38_terminal_residual": [
+        "f61929fa",
+        "207ef43a",
+        "4589ad57",
+        "fc75b767",
+        "34c3220d",
+        "c73d24bd",
+        "1fb4bd01",
+        "99580a14"
+      ],
+      "S39_delta": [
+        "bf064832",
+        "f61929fa",
+        "207ef43a",
+        "4589ad57",
+        "86823e4f",
+        "34c3220d",
+        "c73d24bd",
+        "1fb4bd01"
+      ],
+      "S40_delta": [
+        "0e2c9723",
+        "bf064832",
+        "f61929fa",
+        "207ef43a",
+        "4f73c92a",
+        "86823e4f",
+        "34c3220d",
+        "c73d24bd"
+      ],
+      "base_inputs": [
+        "cfe8978f",
+        "6d1deacc",
+        "ef700f34",
+        "0296d565",
+        "d37b6cae",
+        "c8b66bbb",
+        "82c9d77d",
+        "2b9d0213",
+        "4563aa97",
+        "9387d05b",
+        "d2eb1d07",
+        "29d42949",
+        "8a120908",
+        "ec799e86",
+        "6af41249",
+        "73269de3"
+      ],
+      "coordinates": [
+        "c8b66bbb",
+        "82c9d77d",
+        "2b9d0213",
+        "4563aa97",
+        "9387d05b",
+        "d2eb1d07",
+        "6af41249",
+        "73269de3",
+        "deb22ad5",
+        "55580047",
+        "e85ae825",
+        "29c92406"
+      ],
+      "deltas": {
+        "12": "2354dd23",
+        "13": "fef861de",
+        "27": "7968b299",
+        "34": "7968b299",
+        "36": "6f5f71c0",
+        "38": "ae53ad51",
+        "4": "01079e22"
+      },
+      "partner_inputs": [
+        "cfe8978f",
+        "6d1deacc",
+        "ef700f34",
+        "0296d565",
+        "d4830ad0",
+        "c8b66bbb",
+        "82c9d77d",
+        "2b9d0213",
+        "4563aa97",
+        "9387d05b",
+        "d2eb1d07",
+        "29d42949",
+        "ad66e62b",
+        "eb720064",
+        "6af41249",
+        "73269de3"
+      ]
+    },
+    "schedule_family_log2": 384,
+    "state_target": "S39 equality. Equivalently at S38: delta a..g=0 and delta h=-delta W38; common W39 then preserves equality to S40.",
+    "support": [
+      4,
+      12,
+      13,
+      27,
+      34,
+      36,
+      38
+    ],
+    "surjective_for_fixed_core": true,
+    "variable_delta_words": [
+      36,
+      38
+    ],
+    "verdict": "EXACT_2P384_Z10_SCHEDULE_CHART__STATE_ROOT_OPEN"
+  },
+  "z10_local_state_no_go": {
+    "early_fixediv": {
+      "clauses": 103590,
+      "cluster": "early",
+      "fixed_iv_prefix": true,
+      "gates": {
+        "and": 15802,
+        "xor": 13894
+      },
+      "rounds": [
+        4,
+        13
+      ],
+      "variables": 30144,
+      "verdict": "UNSAT"
+    },
+    "early_free": {
+      "clauses": 91884,
+      "cluster": "early",
+      "fixed_iv_prefix": false,
+      "gates": {
+        "and": 14056,
+        "xor": 12277
+      },
+      "rounds": [
+        4,
+        13
+      ],
+      "variables": 26909,
+      "verdict": "UNSAT"
+    },
+    "scope": "Witness-specific early cluster W4..W13. It excludes returning to equality at S14 from arbitrary common S4, and from the fixed-IV prefix. It does not exclude a globally coupled early+late state trail.",
+    "two_backends_each": "CaDiCaL195 and Kissat404 model files both say UNSATISFIABLE"
+  }
+}

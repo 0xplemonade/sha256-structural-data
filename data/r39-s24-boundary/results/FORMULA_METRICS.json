@@ -1,0 +1,3073 @@
+{
+  "families": {
+    "w7": {
+      "common_terminal_recovered_cv_equalities": {
+        "canonical_dag_local_bytes": 1719057,
+        "canonical_dag_sha256": "0fcc94667a476633ecf3dce15056cc6e8fdc123eb071137f62ce1d48e327a0c0",
+        "dag_nodes": 40927,
+        "dependencies_by_output": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "max_ast_depth": 230,
+        "selected_operation_counts": {
+          "=": 8,
+          "bvadd": 2170,
+          "bvnot": 6518,
+          "bvxor": 4558
+        }
+      },
+      "cuts": {
+        "16": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1078302,
+            "canonical_dag_sha256": "95911f4dfa2f1e5c8532708513aef714b86e7b895c868c7dc29ed5fbe9630d00",
+            "dag_nodes": 26436,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 228,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1692,
+              "bvnot": 5165,
+              "bvxor": 3569
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 293753,
+            "canonical_dag_sha256": "a7206ccbb07617de0a605dc488e1fa27dc272fddbb6ec195f23fba00bc528cfe",
+            "dag_nodes": 7801,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 95,
+            "selected_operation_counts": {
+              "bvadd": 525,
+              "bvnot": 1699,
+              "bvxor": 1155
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1012245,
+            "canonical_dag_sha256": "1f2e07f4533459331d76cf3a72308c9308dca9038aa2cfe77102edcada558bab",
+            "dag_nodes": 24961,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 228,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1628,
+              "bvnot": 4973,
+              "bvxor": 3429
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 726447,
+            "canonical_dag_sha256": "036029c7a2a0d9c6ad8bf042d252804d396d29128e2f85ff1bef582fdc82f1c6",
+            "dag_nodes": 17538,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 227,
+            "selected_operation_counts": {
+              "bvadd": 1091,
+              "bvnot": 3359,
+              "bvxor": 2274
+            }
+          }
+        },
+        "24": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1037402,
+            "canonical_dag_sha256": "9bf80a611e1ac42ec8dbf4d5e44290e840c2b560522b6f7a480774f939463bed",
+            "dag_nodes": 25535,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 184,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1692,
+              "bvnot": 5165,
+              "bvxor": 3569
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 712044,
+            "canonical_dag_sha256": "54c5c43a9a8047e2f0e67db14056cfdc4d7c2b711690d4477d2d9a4963effa88",
+            "dag_nodes": 17238,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 183,
+            "selected_operation_counts": {
+              "bvadd": 1069,
+              "bvnot": 3331,
+              "bvxor": 2307
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 991228,
+            "canonical_dag_sha256": "e50d070f9e322eda17784709aa22d2ca94f3e3ce4f811c23aeefef07231af88d",
+            "dag_nodes": 24406,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 184,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1625,
+              "bvnot": 4966,
+              "bvxor": 3423
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 289040,
+            "canonical_dag_sha256": "53994148e873a4c1266e673043b638cc3de7dbb18594b8a19cd4b48d020dba0d",
+            "dag_nodes": 7592,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 139,
+            "selected_operation_counts": {
+              "bvadd": 544,
+              "bvnot": 1720,
+              "bvxor": 1116
+            }
+          }
+        },
+        "32": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1327977,
+            "canonical_dag_sha256": "429df77bde3b5940ee9194d396a0a6b2bf9318e3194ed6adfde17b797b335b14",
+            "dag_nodes": 30263,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 272,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1737,
+              "bvnot": 5300,
+              "bvxor": 3667
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 1283388,
+            "canonical_dag_sha256": "6bdba6ed245e9197697b195e93ad8b0e9d68df1bc2e921e1bb57b2a600f89ded",
+            "dag_nodes": 29048,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 271,
+            "selected_operation_counts": {
+              "bvadd": 1613,
+              "bvnot": 4963,
+              "bvxor": 3459
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1310730,
+            "canonical_dag_sha256": "245391b13905284d94d46b6dd8f2d1007595560c95390c2a3cea502e9eb3e7df",
+            "dag_nodes": 29772,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 272,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1688,
+              "bvnot": 5145,
+              "bvxor": 3580
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 27697,
+            "canonical_dag_sha256": "d7a1c0e7aecc1484524e86cd51596c734ebcb4a4f71f2a05cdaab82c244dfc38",
+            "dag_nodes": 818,
+            "dependencies_by_output": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 51,
+            "selected_operation_counts": {
+              "bvadd": 63,
+              "bvnot": 205,
+              "bvxor": 121
+            }
+          }
+        },
+        "8": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1415873,
+            "canonical_dag_sha256": "42a93cd35c9142b99cce34521c868387d813aef7c80ab65fd8f7f7921d05dd34",
+            "dag_nodes": 31946,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 316,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1735,
+              "bvnot": 5222,
+              "bvxor": 3613
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 4456,
+            "canonical_dag_sha256": "14f09af340d867017a53528efb110704da8a13d61d0a8232c27b08aca98a0f43",
+            "dag_nodes": 140,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ]
+            ],
+            "max_ast_depth": 7,
+            "selected_operation_counts": {
+              "bvadd": 16,
+              "bvnot": 17,
+              "bvxor": 20
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1326003,
+            "canonical_dag_sha256": "05bcafd611cf0f311a28ba211216bc77195ce649cf6ac498442eb1cedc5f43f2",
+            "dag_nodes": 30028,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 315,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1659,
+              "bvnot": 5003,
+              "bvxor": 3446
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 1316373,
+            "canonical_dag_sha256": "f9f4ce1b91a3f598e3edbad900ca4ad1535b289b403d3bbaab157858a33d7849",
+            "dag_nodes": 29812,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 315,
+            "selected_operation_counts": {
+              "bvadd": 1635,
+              "bvnot": 4991,
+              "bvxor": 3426
+            }
+          }
+        }
+      }
+    },
+    "w8": {
+      "common_terminal_recovered_cv_equalities": {
+        "canonical_dag_local_bytes": 1719357,
+        "canonical_dag_sha256": "d743dc0c380bc8d50ad861b1c4fc0c244b565755b57213a5a19048f8d5ec63c3",
+        "dag_nodes": 40954,
+        "dependencies_by_output": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "max_ast_depth": 230,
+        "selected_operation_counts": {
+          "=": 8,
+          "bvadd": 2170,
+          "bvnot": 6518,
+          "bvxor": 4558
+        }
+      },
+      "cuts": {
+        "16": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1071696,
+            "canonical_dag_sha256": "ef62cfc91376b4a9b6010276b446e1023eb1dcbf8512f7fedaccbcf734bbe34f",
+            "dag_nodes": 26280,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 228,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1672,
+              "bvnot": 5105,
+              "bvxor": 3549
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 286723,
+            "canonical_dag_sha256": "103c646ca27e00b32985b77713ab078b93a31be29ac7ad8139d9eb5121826234",
+            "dag_nodes": 7615,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 95,
+            "selected_operation_counts": {
+              "bvadd": 505,
+              "bvnot": 1639,
+              "bvxor": 1135
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1005552,
+            "canonical_dag_sha256": "565d95920086581c0ab9c707d0438331953f8bb165ee607195a8fb1db6b6555c",
+            "dag_nodes": 24800,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 228,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1608,
+              "bvnot": 4913,
+              "bvxor": 3409
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 726411,
+            "canonical_dag_sha256": "38e270f839a9b422f7fa7c6507107b6d5e07ec8dac94957bad6b89f28b5032f5",
+            "dag_nodes": 17534,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 227,
+            "selected_operation_counts": {
+              "bvadd": 1091,
+              "bvnot": 3359,
+              "bvxor": 2274
+            }
+          }
+        },
+        "24": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1027870,
+            "canonical_dag_sha256": "1dc3169bea6fbe88cf4af7b429e897c52ddf8b37f9c6c268641dd37f6d6cf167",
+            "dag_nodes": 25364,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 184,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1672,
+              "bvnot": 5105,
+              "bvxor": 3549
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 702340,
+            "canonical_dag_sha256": "f3e708a3c665ac860fc532caf4188fafe1591ff9815177cad9603b3fd0efc4fc",
+            "dag_nodes": 17065,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 183,
+            "selected_operation_counts": {
+              "bvadd": 1049,
+              "bvnot": 3271,
+              "bvxor": 2287
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 981656,
+            "canonical_dag_sha256": "55072e31cb6bd6419c81adad7100843c0e9f2a9f4ec848c3f8edfac72579d2fa",
+            "dag_nodes": 24235,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 184,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1605,
+              "bvnot": 4906,
+              "bvxor": 3403
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 289160,
+            "canonical_dag_sha256": "7baf01ebbdb7bfdc94aebe5b0e89751b1987857866a1b52102f8ed01c129dc23",
+            "dag_nodes": 7594,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 139,
+            "selected_operation_counts": {
+              "bvadd": 544,
+              "bvnot": 1720,
+              "bvxor": 1116
+            }
+          }
+        },
+        "32": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1317075,
+            "canonical_dag_sha256": "ba08cd9b05b225e0c820aaadad93e9f25cd8cc5fe60cd659086e1e90f66c43bf",
+            "dag_nodes": 30122,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 272,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1717,
+              "bvnot": 5240,
+              "bvxor": 3647
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 1272469,
+            "canonical_dag_sha256": "9e91a5418c7a865d0d874ae671b22d4ad059b86b77eccd1979d94c021a1b21cc",
+            "dag_nodes": 28906,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 271,
+            "selected_operation_counts": {
+              "bvadd": 1593,
+              "bvnot": 4903,
+              "bvxor": 3439
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1299836,
+            "canonical_dag_sha256": "3a63ccc5fc0ab8c3ba6f378ce971640f4f6d4ced60ca4c5b51d2c62f16a4d70d",
+            "dag_nodes": 29631,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 272,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1668,
+              "bvnot": 5085,
+              "bvxor": 3560
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 27712,
+            "canonical_dag_sha256": "1bb95ae1d693d6c161faefe086257487ff1c6e02de80cec5564a9cf6a9ea5314",
+            "dag_nodes": 820,
+            "dependencies_by_output": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 51,
+            "selected_operation_counts": {
+              "bvadd": 63,
+              "bvnot": 205,
+              "bvxor": 121
+            }
+          }
+        },
+        "8": {
+          "a_coordinate_equalities": {
+            "canonical_dag_local_bytes": 1416201,
+            "canonical_dag_sha256": "0dcd1f604671fdd05805b1fbb83fe557284cc9db38500512488ca466a85bb8ea",
+            "dag_nodes": 31970,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 316,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1733,
+              "bvnot": 5222,
+              "bvxor": 3613
+            }
+          },
+          "prefix_side": {
+            "canonical_dag_local_bytes": 4347,
+            "canonical_dag_sha256": "66dc99f66df48ea787fa393984726d0df12408dac51d1f8a89f8ee634395feec",
+            "dag_nodes": 135,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ]
+            ],
+            "max_ast_depth": 7,
+            "selected_operation_counts": {
+              "bvadd": 14,
+              "bvnot": 17,
+              "bvxor": 20
+            }
+          },
+          "state_word_equalities": {
+            "canonical_dag_local_bytes": 1326284,
+            "canonical_dag_sha256": "ff7a8b35fdd27d583a95dafbf3895d05bc1f60e03407eb1235a1468cbca419ba",
+            "dag_nodes": 30046,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 315,
+            "selected_operation_counts": {
+              "=": 8,
+              "bvadd": 1657,
+              "bvnot": 5003,
+              "bvxor": 3446
+            }
+          },
+          "suffix_side": {
+            "canonical_dag_local_bytes": 1316747,
+            "canonical_dag_sha256": "1c7193caafbfe62ba58d871eaac058534dfc2a7ba74400fb9e80ee657c5ed9a1",
+            "dag_nodes": 29834,
+            "dependencies_by_output": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            ],
+            "max_ast_depth": 315,
+            "selected_operation_counts": {
+              "bvadd": 1635,
+              "bvnot": 4991,
+              "bvxor": 3426
+            }
+          }
+        }
+      }
+    }
+  },
+  "scope": "word-level QF_BV DAG after substituting both 39-word schedules as constants; no bit-blast"
+}

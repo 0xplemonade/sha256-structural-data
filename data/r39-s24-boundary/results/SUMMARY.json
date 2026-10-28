@@ -1,0 +1,48 @@
+{
+  "attack_cost_claim": null,
+  "complete_hidden_fibres": 64,
+  "cut_formulation": "Jpre_c(X)=Jsuf_c(X), equivalent to equal CVs recovered from a common S38",
+  "cuts": [
+    8,
+    16,
+    24,
+    32
+  ],
+  "declared_separator_partitions_all_refuted": true,
+  "equality_bits": 256,
+  "families": {
+    "w7": [
+      6,
+      7,
+      9,
+      14,
+      22,
+      23,
+      37
+    ],
+    "w8": [
+      6,
+      8,
+      9,
+      14,
+      22,
+      23,
+      37
+    ]
+  },
+  "formula_metrics_after_constant_schedule_substitution": true,
+  "full_zero_bounded_results": {
+    "unknown": 16
+  },
+  "genuine_zero_queries": "reported separately in PLANTED_CONTROLS.json and LOWBIT_SOLVER.json",
+  "hidden_byte_bounded_solver_results": {
+    "unknown": 32
+  },
+  "hidden_fibre_pattern": "each has exactly one target-relaxed root and zero genuine-zero roots",
+  "progressive_lowbit_results": {
+    "unknown": 64
+  },
+  "semi_free_start_collision_found": false,
+  "symbolic_boundary_bits": 256,
+  "target_relaxed_controls": "complete fibres up to 8 hidden bits; not collision queries"
+}

@@ -1,0 +1,13 @@
+{
+  "accepted_E17_per_tag": 32768,
+  "all_hidden_controls_retained": true,
+  "automaton_targets": 16,
+  "collision": null,
+  "free_controls_are_fixed_iv_samples": false,
+  "full_terminal_controls_replayed": 16,
+  "hidden_controls": 16,
+  "sampled_cvs_recomputed": 8,
+  "score": null,
+  "tail_probability": null,
+  "verified_solver_models": []
+}

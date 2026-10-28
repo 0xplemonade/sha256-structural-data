@@ -1,0 +1,1638 @@
+{
+  "convention": "Partner minus base modulo 2^32. D0(W,d)=sigma0(W+d)-sigma0(W); D1 analogously.",
+  "recurrence": "d_t = D1(W_(t-2),d_(t-2)) + d_(t-7) + D0(W_(t-15),d_(t-15)) + d_(t-16)",
+  "systems": [
+    {
+      "active_input_words": [
+        1,
+        3,
+        8
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z00",
+      "last_active": 38,
+      "nonzero_requirements": [
+        "d1 != 0",
+        "d3 != 0",
+        "d8 != 0",
+        "d16 != 0",
+        "d17 != 0",
+        "d31 != 0",
+        "d38 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "d16 = D0(W1,d1)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W1,d1)"
+          ],
+          "row": 16
+        },
+        {
+          "equation": "d17 = d1",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d1"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "0 = D1(W16,d16) + D0(W3,d3)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W16,d16)",
+            "D0(W3,d3)"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "0 = D1(W17,d17) + d3",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W17,d17)",
+            "d3"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = d16 + D0(W8,d8)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d16",
+            "D0(W8,d8)"
+          ],
+          "row": 23
+        },
+        {
+          "equation": "0 = d17 + d8",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d17",
+            "d8"
+          ],
+          "row": 24
+        },
+        {
+          "equation": "d31 = D0(W16,d16)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W16,d16)"
+          ],
+          "row": 31
+        },
+        {
+          "equation": "0 = D0(W17,d17) + d16",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W17,d17)",
+            "d16"
+          ],
+          "row": 32
+        },
+        {
+          "equation": "0 = D1(W31,d31) + d17",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W31,d31)",
+            "d17"
+          ],
+          "row": 33
+        },
+        {
+          "equation": "d38 = d31",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d31"
+          ],
+          "row": 38
+        }
+      ],
+      "support": [
+        1,
+        3,
+        8,
+        16,
+        17,
+        31,
+        38
+      ]
+    },
+    {
+      "active_input_words": [
+        1,
+        6,
+        14,
+        15
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z01",
+      "last_active": 38,
+      "nonzero_requirements": [
+        "d1 != 0",
+        "d6 != 0",
+        "d14 != 0",
+        "d15 != 0",
+        "d29 != 0",
+        "d36 != 0",
+        "d38 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = D1(W14,d14) + D0(W1,d1)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W14,d14)",
+            "D0(W1,d1)"
+          ],
+          "row": 16
+        },
+        {
+          "equation": "0 = D1(W15,d15) + d1",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W15,d15)",
+            "d1"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "0 = d14 + D0(W6,d6)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d14",
+            "D0(W6,d6)"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = d15 + d6",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d15",
+            "d6"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "d29 = D0(W14,d14)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W14,d14)"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "0 = D0(W15,d15) + d14",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W15,d15)",
+            "d14"
+          ],
+          "row": 30
+        },
+        {
+          "equation": "0 = D1(W29,d29) + d15",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W29,d29)",
+            "d15"
+          ],
+          "row": 31
+        },
+        {
+          "equation": "d36 = d29",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d29"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "d38 = D1(W36,d36)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D1(W36,d36)"
+          ],
+          "row": 38
+        }
+      ],
+      "support": [
+        1,
+        6,
+        14,
+        15,
+        29,
+        36,
+        38
+      ]
+    },
+    {
+      "active_input_words": [
+        1,
+        9,
+        10,
+        12
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z02",
+      "last_active": 26,
+      "nonzero_requirements": [
+        "d1 != 0",
+        "d9 != 0",
+        "d10 != 0",
+        "d12 != 0",
+        "d17 != 0",
+        "d25 != 0",
+        "d26 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d9 + D0(W1,d1)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d9",
+            "D0(W1,d1)"
+          ],
+          "row": 16
+        },
+        {
+          "equation": "d17 = d10 + d1",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d10",
+            "d1"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "0 = D1(W17,d17) + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W17,d17)",
+            "d12"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = d17 + D0(W9,d9)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d17",
+            "D0(W9,d9)"
+          ],
+          "row": 24
+        },
+        {
+          "equation": "d25 = D0(W10,d10) + d9",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W10,d10)",
+            "d9"
+          ],
+          "row": 25
+        },
+        {
+          "equation": "d26 = d10",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d10"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "0 = D1(W25,d25) + D0(W12,d12)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W25,d25)",
+            "D0(W12,d12)"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = D1(W26,d26) + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W26,d26)",
+            "d12"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = d25 + D0(W17,d17)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d25",
+            "D0(W17,d17)"
+          ],
+          "row": 32
+        },
+        {
+          "equation": "0 = d26 + d17",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d26",
+            "d17"
+          ],
+          "row": 33
+        }
+      ],
+      "support": [
+        1,
+        9,
+        10,
+        12,
+        17,
+        25,
+        26
+      ]
+    },
+    {
+      "active_input_words": [
+        2,
+        3,
+        5,
+        10
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z03",
+      "last_active": 33,
+      "nonzero_requirements": [
+        "d2 != 0",
+        "d3 != 0",
+        "d5 != 0",
+        "d10 != 0",
+        "d18 != 0",
+        "d19 != 0",
+        "d33 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d10 + D0(W2,d2)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d10",
+            "D0(W2,d2)"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "d18 = D0(W3,d3) + d2",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W3,d3)",
+            "d2"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "d19 = d3",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d3"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = D1(W18,d18) + D0(W5,d5)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W18,d18)",
+            "D0(W5,d5)"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = D1(W19,d19) + d5",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W19,d19)",
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = d18 + D0(W10,d10)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d18",
+            "D0(W10,d10)"
+          ],
+          "row": 25
+        },
+        {
+          "equation": "0 = d19 + d10",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d19",
+            "d10"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "d33 = D0(W18,d18)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W18,d18)"
+          ],
+          "row": 33
+        },
+        {
+          "equation": "0 = D0(W19,d19) + d18",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W19,d19)",
+            "d18"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "0 = D1(W33,d33) + d19",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W33,d33)",
+            "d19"
+          ],
+          "row": 35
+        }
+      ],
+      "support": [
+        2,
+        3,
+        5,
+        10,
+        18,
+        19,
+        33
+      ]
+    },
+    {
+      "active_input_words": [
+        2,
+        4,
+        5,
+        10
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z04",
+      "last_active": 33,
+      "nonzero_requirements": [
+        "d2 != 0",
+        "d4 != 0",
+        "d5 != 0",
+        "d10 != 0",
+        "d18 != 0",
+        "d19 != 0",
+        "d33 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d10 + D0(W2,d2)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d10",
+            "D0(W2,d2)"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "d18 = d2",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d2"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "d19 = D0(W4,d4)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W4,d4)"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = D1(W18,d18) + D0(W5,d5) + d4",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W18,d18)",
+            "D0(W5,d5)",
+            "d4"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = D1(W19,d19) + d5",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W19,d19)",
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = d18 + D0(W10,d10)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d18",
+            "D0(W10,d10)"
+          ],
+          "row": 25
+        },
+        {
+          "equation": "0 = d19 + d10",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d19",
+            "d10"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "d33 = D0(W18,d18)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W18,d18)"
+          ],
+          "row": 33
+        },
+        {
+          "equation": "0 = D0(W19,d19) + d18",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W19,d19)",
+            "d18"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "0 = D1(W33,d33) + d19",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W33,d33)",
+            "d19"
+          ],
+          "row": 35
+        }
+      ],
+      "support": [
+        2,
+        4,
+        5,
+        10,
+        18,
+        19,
+        33
+      ]
+    },
+    {
+      "active_input_words": [
+        2,
+        10,
+        11,
+        13
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z05",
+      "last_active": 27,
+      "nonzero_requirements": [
+        "d2 != 0",
+        "d10 != 0",
+        "d11 != 0",
+        "d13 != 0",
+        "d18 != 0",
+        "d26 != 0",
+        "d27 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d10 + D0(W2,d2)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d10",
+            "D0(W2,d2)"
+          ],
+          "row": 17
+        },
+        {
+          "equation": "d18 = d11 + d2",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d11",
+            "d2"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "0 = D1(W18,d18) + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W18,d18)",
+            "d13"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = d18 + D0(W10,d10)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d18",
+            "D0(W10,d10)"
+          ],
+          "row": 25
+        },
+        {
+          "equation": "d26 = D0(W11,d11) + d10",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W11,d11)",
+            "d10"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "d27 = d11",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d11"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = D1(W26,d26) + D0(W13,d13)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W26,d26)",
+            "D0(W13,d13)"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = D1(W27,d27) + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W27,d27)",
+            "d13"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "0 = d26 + D0(W18,d18)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d26",
+            "D0(W18,d18)"
+          ],
+          "row": 33
+        },
+        {
+          "equation": "0 = d27 + d18",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d27",
+            "d18"
+          ],
+          "row": 34
+        }
+      ],
+      "support": [
+        2,
+        10,
+        11,
+        13,
+        18,
+        26,
+        27
+      ]
+    },
+    {
+      "active_input_words": [
+        3,
+        4,
+        6,
+        11
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z06",
+      "last_active": 34,
+      "nonzero_requirements": [
+        "d3 != 0",
+        "d4 != 0",
+        "d6 != 0",
+        "d11 != 0",
+        "d19 != 0",
+        "d20 != 0",
+        "d34 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d11 + D0(W3,d3)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d11",
+            "D0(W3,d3)"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "d19 = D0(W4,d4) + d3",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W4,d4)",
+            "d3"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "d20 = d4",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d4"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = D1(W19,d19) + D0(W6,d6)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W19,d19)",
+            "D0(W6,d6)"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = D1(W20,d20) + d6",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W20,d20)",
+            "d6"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = d19 + D0(W11,d11)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d19",
+            "D0(W11,d11)"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "0 = d20 + d11",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d20",
+            "d11"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "d34 = D0(W19,d19)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W19,d19)"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "0 = D0(W20,d20) + d19",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W20,d20)",
+            "d19"
+          ],
+          "row": 35
+        },
+        {
+          "equation": "0 = D1(W34,d34) + d20",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W34,d34)",
+            "d20"
+          ],
+          "row": 36
+        }
+      ],
+      "support": [
+        3,
+        4,
+        6,
+        11,
+        19,
+        20,
+        34
+      ]
+    },
+    {
+      "active_input_words": [
+        3,
+        5,
+        6,
+        11
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z07",
+      "last_active": 34,
+      "nonzero_requirements": [
+        "d3 != 0",
+        "d5 != 0",
+        "d6 != 0",
+        "d11 != 0",
+        "d19 != 0",
+        "d20 != 0",
+        "d34 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d11 + D0(W3,d3)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d11",
+            "D0(W3,d3)"
+          ],
+          "row": 18
+        },
+        {
+          "equation": "d19 = d3",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d3"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "d20 = D0(W5,d5)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W5,d5)"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = D1(W19,d19) + D0(W6,d6) + d5",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W19,d19)",
+            "D0(W6,d6)",
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = D1(W20,d20) + d6",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W20,d20)",
+            "d6"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = d19 + D0(W11,d11)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d19",
+            "D0(W11,d11)"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "0 = d20 + d11",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d20",
+            "d11"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "d34 = D0(W19,d19)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W19,d19)"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "0 = D0(W20,d20) + d19",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W20,d20)",
+            "d19"
+          ],
+          "row": 35
+        },
+        {
+          "equation": "0 = D1(W34,d34) + d20",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W34,d34)",
+            "d20"
+          ],
+          "row": 36
+        }
+      ],
+      "support": [
+        3,
+        5,
+        6,
+        11,
+        19,
+        20,
+        34
+      ]
+    },
+    {
+      "active_input_words": [
+        4,
+        5,
+        7,
+        12
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z08",
+      "last_active": 35,
+      "nonzero_requirements": [
+        "d4 != 0",
+        "d5 != 0",
+        "d7 != 0",
+        "d12 != 0",
+        "d20 != 0",
+        "d21 != 0",
+        "d35 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d12 + D0(W4,d4)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d12",
+            "D0(W4,d4)"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "d20 = D0(W5,d5) + d4",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W5,d5)",
+            "d4"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "d21 = d5",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = D1(W20,d20) + D0(W7,d7)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W20,d20)",
+            "D0(W7,d7)"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = D1(W21,d21) + d7",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W21,d21)",
+            "d7"
+          ],
+          "row": 23
+        },
+        {
+          "equation": "0 = d20 + D0(W12,d12)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d20",
+            "D0(W12,d12)"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = d21 + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d21",
+            "d12"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "d35 = D0(W20,d20)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W20,d20)"
+          ],
+          "row": 35
+        },
+        {
+          "equation": "0 = D0(W21,d21) + d20",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W21,d21)",
+            "d20"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "0 = D1(W35,d35) + d21",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W35,d35)",
+            "d21"
+          ],
+          "row": 37
+        }
+      ],
+      "support": [
+        4,
+        5,
+        7,
+        12,
+        20,
+        21,
+        35
+      ]
+    },
+    {
+      "active_input_words": [
+        4,
+        6,
+        7,
+        12
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z09",
+      "last_active": 35,
+      "nonzero_requirements": [
+        "d4 != 0",
+        "d6 != 0",
+        "d7 != 0",
+        "d12 != 0",
+        "d20 != 0",
+        "d21 != 0",
+        "d35 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d12 + D0(W4,d4)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d12",
+            "D0(W4,d4)"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "d20 = d4",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d4"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "d21 = D0(W6,d6)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W6,d6)"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "0 = D1(W20,d20) + D0(W7,d7) + d6",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W20,d20)",
+            "D0(W7,d7)",
+            "d6"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = D1(W21,d21) + d7",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W21,d21)",
+            "d7"
+          ],
+          "row": 23
+        },
+        {
+          "equation": "0 = d20 + D0(W12,d12)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d20",
+            "D0(W12,d12)"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = d21 + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d21",
+            "d12"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "d35 = D0(W20,d20)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W20,d20)"
+          ],
+          "row": 35
+        },
+        {
+          "equation": "0 = D0(W21,d21) + d20",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W21,d21)",
+            "d20"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "0 = D1(W35,d35) + d21",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W35,d35)",
+            "d21"
+          ],
+          "row": 37
+        }
+      ],
+      "support": [
+        4,
+        6,
+        7,
+        12,
+        20,
+        21,
+        35
+      ]
+    },
+    {
+      "active_input_words": [
+        4,
+        12,
+        13
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z10",
+      "last_active": 38,
+      "nonzero_requirements": [
+        "d4 != 0",
+        "d12 != 0",
+        "d13 != 0",
+        "d27 != 0",
+        "d34 != 0",
+        "d36 != 0",
+        "d38 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d12 + D0(W4,d4)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d12",
+            "D0(W4,d4)"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = d13 + d4",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d13",
+            "d4"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "d27 = D0(W12,d12)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W12,d12)"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = D0(W13,d13) + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W13,d13)",
+            "d12"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = D1(W27,d27) + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W27,d27)",
+            "d13"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "d34 = d27",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d27"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "d36 = D1(W34,d34)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D1(W34,d34)"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "d38 = D1(W36,d36)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D1(W36,d36)"
+          ],
+          "row": 38
+        }
+      ],
+      "support": [
+        4,
+        12,
+        13,
+        27,
+        34,
+        36,
+        38
+      ]
+    },
+    {
+      "active_input_words": [
+        5,
+        6,
+        8,
+        13
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z11",
+      "last_active": 36,
+      "nonzero_requirements": [
+        "d5 != 0",
+        "d6 != 0",
+        "d8 != 0",
+        "d13 != 0",
+        "d21 != 0",
+        "d22 != 0",
+        "d36 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d13 + D0(W5,d5)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d13",
+            "D0(W5,d5)"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "d21 = D0(W6,d6) + d5",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W6,d6)",
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "d22 = d6",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d6"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = D1(W21,d21) + D0(W8,d8)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W21,d21)",
+            "D0(W8,d8)"
+          ],
+          "row": 23
+        },
+        {
+          "equation": "0 = D1(W22,d22) + d8",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W22,d22)",
+            "d8"
+          ],
+          "row": 24
+        },
+        {
+          "equation": "0 = d21 + D0(W13,d13)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d21",
+            "D0(W13,d13)"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = d22 + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d22",
+            "d13"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "d36 = D0(W21,d21)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W21,d21)"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "0 = D0(W22,d22) + d21",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W22,d22)",
+            "d21"
+          ],
+          "row": 37
+        },
+        {
+          "equation": "0 = D1(W36,d36) + d22",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W36,d36)",
+            "d22"
+          ],
+          "row": 38
+        }
+      ],
+      "support": [
+        5,
+        6,
+        8,
+        13,
+        21,
+        22,
+        36
+      ]
+    },
+    {
+      "active_input_words": [
+        5,
+        7,
+        8,
+        13
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z12",
+      "last_active": 36,
+      "nonzero_requirements": [
+        "d5 != 0",
+        "d7 != 0",
+        "d8 != 0",
+        "d13 != 0",
+        "d21 != 0",
+        "d22 != 0",
+        "d36 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "0 = d13 + D0(W5,d5)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d13",
+            "D0(W5,d5)"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "d21 = d5",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "d22 = D0(W7,d7)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W7,d7)"
+          ],
+          "row": 22
+        },
+        {
+          "equation": "0 = D1(W21,d21) + D0(W8,d8) + d7",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W21,d21)",
+            "D0(W8,d8)",
+            "d7"
+          ],
+          "row": 23
+        },
+        {
+          "equation": "0 = D1(W22,d22) + d8",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W22,d22)",
+            "d8"
+          ],
+          "row": 24
+        },
+        {
+          "equation": "0 = d21 + D0(W13,d13)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d21",
+            "D0(W13,d13)"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = d22 + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d22",
+            "d13"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "d36 = D0(W21,d21)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W21,d21)"
+          ],
+          "row": 36
+        },
+        {
+          "equation": "0 = D0(W22,d22) + d21",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D0(W22,d22)",
+            "d21"
+          ],
+          "row": 37
+        },
+        {
+          "equation": "0 = D1(W36,d36) + d22",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W36,d36)",
+            "d22"
+          ],
+          "row": 38
+        }
+      ],
+      "support": [
+        5,
+        7,
+        8,
+        13,
+        21,
+        22,
+        36
+      ]
+    },
+    {
+      "active_input_words": [
+        5,
+        12,
+        13
+      ],
+      "dW39_automatic_zero": true,
+      "id": "Z13",
+      "last_active": 33,
+      "nonzero_requirements": [
+        "d5 != 0",
+        "d12 != 0",
+        "d13 != 0",
+        "d19 != 0",
+        "d26 != 0",
+        "d27 != 0",
+        "d33 != 0"
+      ],
+      "rows": [
+        {
+          "equation": "d19 = d12",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d12"
+          ],
+          "row": 19
+        },
+        {
+          "equation": "0 = d13 + D0(W5,d5)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d13",
+            "D0(W5,d5)"
+          ],
+          "row": 20
+        },
+        {
+          "equation": "0 = D1(W19,d19) + d5",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W19,d19)",
+            "d5"
+          ],
+          "row": 21
+        },
+        {
+          "equation": "d26 = d19",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d19"
+          ],
+          "row": 26
+        },
+        {
+          "equation": "d27 = D0(W12,d12)",
+          "lhs_active": true,
+          "rhs_terms": [
+            "D0(W12,d12)"
+          ],
+          "row": 27
+        },
+        {
+          "equation": "0 = D1(W26,d26) + D0(W13,d13) + d12",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W26,d26)",
+            "D0(W13,d13)",
+            "d12"
+          ],
+          "row": 28
+        },
+        {
+          "equation": "0 = D1(W27,d27) + d13",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W27,d27)",
+            "d13"
+          ],
+          "row": 29
+        },
+        {
+          "equation": "d33 = d26",
+          "lhs_active": true,
+          "rhs_terms": [
+            "d26"
+          ],
+          "row": 33
+        },
+        {
+          "equation": "0 = d27 + D0(W19,d19)",
+          "lhs_active": false,
+          "rhs_terms": [
+            "d27",
+            "D0(W19,d19)"
+          ],
+          "row": 34
+        },
+        {
+          "equation": "0 = D1(W33,d33) + d19",
+          "lhs_active": false,
+          "rhs_terms": [
+            "D1(W33,d33)",
+            "d19"
+          ],
+          "row": 35
+        }
+      ],
+      "support": [
+        5,
+        12,
+        13,
+        19,
+        26,
+        27,
+        33
+      ]
+    }
+  ]
+}

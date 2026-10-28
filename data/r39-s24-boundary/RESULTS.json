@@ -1,0 +1,65 @@
+{
+  "headline": "S24 is a 40% smaller exact fixed-schedule common-CV formulation, while every global word-additive and word-XOR separator is refuted",
+  "families": {
+    "w7": [6, 7, 9, 14, 22, 23, 37],
+    "w8": [6, 8, 9, 14, 22, 23, 37]
+  },
+  "exact_boundary_theorem": {
+    "cuts": [8, 16, 24, 32],
+    "equation": "Jpre_c(X)=Jsuf_c(X)",
+    "equivalent_to": "one common recovered CV and one common S38",
+    "symbolic_boundary_bits": 256,
+    "equality_bits": 256
+  },
+  "formula_metrics": {
+    "scope": "fixed schedules substituted before word-level QF_BV DAG measurement",
+    "w7": {
+      "direct_terminal_nodes": 40927,
+      "S24_nodes": 24406,
+      "reduction_percent": 40.367,
+      "S24_max_depth": 184,
+      "S24_largest_side_nodes": 17238
+    },
+    "w8": {
+      "direct_terminal_nodes": 40954,
+      "S24_nodes": 24235,
+      "reduction_percent": 40.8239,
+      "S24_max_depth": 184,
+      "S24_largest_side_nodes": 17065
+    },
+    "all_state_outputs_depend_on_all_boundary_words": true,
+    "eight_A_form_smaller": false
+  },
+  "hidden_controls": {
+    "complete_fibres": 64,
+    "maximum_fibre_size": 256,
+    "pattern": "exactly one target-relaxed planted root and zero genuine-zero roots in every fibre",
+    "bounded_solver_queries": 32,
+    "bounded_solver_results": {"unknown": 32},
+    "warning": "Target-relaxed controls are not collision queries."
+  },
+  "progressive_zero_solver": {
+    "partial_lowbit_queries": 64,
+    "full_zero_queries": 16,
+    "bounded_results": {"unknown": 80},
+    "timeout_ms_each": 1500,
+    "inference": "none about SAT or UNSAT"
+  },
+  "separator_negative": {
+    "partitions_per_cut": 127,
+    "families": 2,
+    "cuts": 4,
+    "operations": ["componentwise modular addition", "componentwise XOR"],
+    "counterexamples_replayed": 2032,
+    "all_declared_separators_refuted": true,
+    "scope_warning": "Bit-level, carry-state, transformed-coordinate, restricted, and approximate separators remain open."
+  },
+  "claims": {
+    "materially_smaller_exact_fixed_schedule_formulation": true,
+    "constructive_common_cv_subfamily": false,
+    "semi_free_start_r39_collision": false,
+    "ordinary_collision": false,
+    "attack_complexity": null,
+    "success_probability": null
+  }
+}

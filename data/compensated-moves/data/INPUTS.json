@@ -1,0 +1,67 @@
+[
+  {
+    "packet_path": "code/reference.py",
+    "sha256": "5868979cb915d3683c7760bf47eb1d5944c53331a78999380a68eeb7ef5d6248",
+    "source_path": "r40_neutral_core_exact_audit/inputs/orientation/reference.py"
+  },
+  {
+    "packet_path": "code/secondary.py",
+    "sha256": "4d75a58ce318d074164fbcab5188ad25867c8c78b7371a00dcdf73f48b5bee86",
+    "source_path": "r40_r39_direct_transfer/scripts/exact_transfer.py"
+  },
+  {
+    "packet_path": "data/inputs/Z10_core.json",
+    "sha256": "ea2d73b9dc8c31f2af1c762265d2e020c86ff00e71987fb78ee46725c240a84c",
+    "source_path": "r40_z_support_hunt/results/Z10_core.json"
+  },
+  {
+    "packet_path": "data/inputs/Z10_witness.json",
+    "sha256": "746763126f49a29f3be2ac56f7334c6a78fb9a7f75ca211c569bcc0fec2cfa88",
+    "source_path": "r40_z_support_hunt/results/Z10_witness.json"
+  },
+  {
+    "packet_path": "data/inputs/Z01_core.json",
+    "sha256": "a19316d3139dd048dd1440688026e155dbfe25456975190fa5b1dda84fb05bad",
+    "source_path": "r40_z_support_hunt/results/Z01_core.json"
+  },
+  {
+    "packet_path": "data/inputs/Z01_witness.json",
+    "sha256": "233b7d64e23afa832559954e7ba46fb0c121cb8f34dc43abef291ffbfdeb5e8d",
+    "source_path": "r40_z_support_hunt/results/Z01_witness.json"
+  },
+  {
+    "packet_path": "data/inputs/Z00_core.json",
+    "sha256": "533b915da42f290e045b83c4592f7f7ca487e3348eb564386ca4085ffbb5ee64",
+    "source_path": "r40_z_support_hunt/results/Z00_core.json"
+  },
+  {
+    "packet_path": "data/inputs/Z00_witness.json",
+    "sha256": "91dcbb19bd619fe9cd7f1781aa36738077eb86a8dc41a05f0b435e491eca8cbe",
+    "source_path": "r40_z_support_hunt/results/Z00_witness.json"
+  },
+  {
+    "packet_path": "data/inputs/S7_core.json",
+    "sha256": "e1a21e142ee2d2e83ae37df9ee59219b7593d637ac9194663dbe858fc9436091",
+    "source_path": "r40_neutral_core_math_audit/inputs/s7_core.json"
+  },
+  {
+    "packet_path": "data/inputs/z10_schedule_chart.py.txt",
+    "sha256": "f217eabe21c65d99594956e66badcb2079370487eb1f3a3123489b7e780a4c4a",
+    "source_path": "r40_r39_direct_transfer/scripts/z10_schedule_chart.py"
+  },
+  {
+    "packet_path": "data/inputs/z01_schedule_chart.py.txt",
+    "sha256": "c59093ff1ccdad27dfcef31e3c23b3554de9a1a0d82b35fe6288fc07cf479b91",
+    "source_path": "r40_r39_direct_transfer/scripts/z01_schedule_chart.py"
+  },
+  {
+    "packet_path": "data/inputs/s7_orientation.json",
+    "sha256": "5b011846c196e4e75278204625a3c54f639bc743ac108210c7155e11f5d17992",
+    "source_path": "r40_neutral_core_math_audit/inputs/orientation.json"
+  },
+  {
+    "packet_path": "data/inputs/prior_neutral_report.md",
+    "sha256": "5ba00fccd3c4ff59a45d0917a94ed2fabd3870fa7fe049603a6cacd214a98b59",
+    "source_path": "r40_neutral_core_math_audit/REPORT.md"
+  }
+]

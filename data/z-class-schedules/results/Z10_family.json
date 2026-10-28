@@ -1,0 +1,149 @@
+{
+  "dW39_automatic_zero": true,
+  "delta_family_exact_lower_bound_log2": 16,
+  "delta_family_lower_bound_certificate": "All 2^16 low-half values of coordinate W5 with every other coordinate zero give distinct (dW36,dW38) pairs.",
+  "derivation": "Choose W5..W10 and W14..W19; derive W20 from the W4 pin, W21..W25 forward, W11 from the W27 pin, then W0..W4 backward.",
+  "fixed_core_deltas": [
+    4,
+    12,
+    13,
+    27,
+    34
+  ],
+  "free_words": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "injective": true,
+  "limit": "A schedule chart and terminal interface are not a differential characteristic or fixed-IV collision construction.",
+  "sample": {
+    "S38_boundary_weight_max": 155,
+    "S38_boundary_weight_mean": 128.01513671875,
+    "S38_boundary_weight_min": 100,
+    "S39_weight_max": 154,
+    "S39_weight_mean": 127.960205078125,
+    "S39_weight_min": 102,
+    "distinct_dW36_dW38_pairs": 4096,
+    "points": 4096,
+    "scope": "Deterministic frozen sample; it is not a probability or root-count theorem.",
+    "state_roots": 0
+  },
+  "saved_point": {
+    "S38_terminal_residual": [
+      "f61929fa",
+      "207ef43a",
+      "4589ad57",
+      "fc75b767",
+      "34c3220d",
+      "c73d24bd",
+      "1fb4bd01",
+      "99580a14"
+    ],
+    "S39_delta": [
+      "bf064832",
+      "f61929fa",
+      "207ef43a",
+      "4589ad57",
+      "86823e4f",
+      "34c3220d",
+      "c73d24bd",
+      "1fb4bd01"
+    ],
+    "S40_delta": [
+      "0e2c9723",
+      "bf064832",
+      "f61929fa",
+      "207ef43a",
+      "4f73c92a",
+      "86823e4f",
+      "34c3220d",
+      "c73d24bd"
+    ],
+    "base_inputs": [
+      "cfe8978f",
+      "6d1deacc",
+      "ef700f34",
+      "0296d565",
+      "d37b6cae",
+      "c8b66bbb",
+      "82c9d77d",
+      "2b9d0213",
+      "4563aa97",
+      "9387d05b",
+      "d2eb1d07",
+      "29d42949",
+      "8a120908",
+      "ec799e86",
+      "6af41249",
+      "73269de3"
+    ],
+    "coordinates": [
+      "c8b66bbb",
+      "82c9d77d",
+      "2b9d0213",
+      "4563aa97",
+      "9387d05b",
+      "d2eb1d07",
+      "6af41249",
+      "73269de3",
+      "deb22ad5",
+      "55580047",
+      "e85ae825",
+      "29c92406"
+    ],
+    "deltas": {
+      "12": "2354dd23",
+      "13": "fef861de",
+      "27": "7968b299",
+      "34": "7968b299",
+      "36": "6f5f71c0",
+      "38": "ae53ad51",
+      "4": "01079e22"
+    },
+    "partner_inputs": [
+      "cfe8978f",
+      "6d1deacc",
+      "ef700f34",
+      "0296d565",
+      "d4830ad0",
+      "c8b66bbb",
+      "82c9d77d",
+      "2b9d0213",
+      "4563aa97",
+      "9387d05b",
+      "d2eb1d07",
+      "29d42949",
+      "ad66e62b",
+      "eb720064",
+      "6af41249",
+      "73269de3"
+    ]
+  },
+  "schedule_family_log2": 384,
+  "state_target": "S39 equality. Equivalently at S38: delta a..g=0 and delta h=-delta W38; common W39 then preserves equality to S40.",
+  "support": [
+    4,
+    12,
+    13,
+    27,
+    34,
+    36,
+    38
+  ],
+  "surjective_for_fixed_core": true,
+  "variable_delta_words": [
+    36,
+    38
+  ],
+  "verdict": "EXACT_2P384_Z10_SCHEDULE_CHART__STATE_ROOT_OPEN"
+}

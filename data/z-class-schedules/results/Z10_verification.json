@@ -1,0 +1,18 @@
+{
+  "all_checks_pass": true,
+  "exact_low16_delta_pairs": 65536,
+  "random_chart_replays": 1024,
+  "schedule_family_log2": 384,
+  "scope": "Schedule arithmetic only; no state or fixed-IV collision claim.",
+  "witness_dW39": "00000000",
+  "witness_expansions": 2,
+  "witness_support": [
+    4,
+    12,
+    13,
+    27,
+    34,
+    36,
+    38
+  ]
+}

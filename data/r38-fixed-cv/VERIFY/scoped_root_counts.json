@@ -1,0 +1,134 @@
+{
+  "per_tag": [
+    {
+      "E22bit29zero": 3120,
+      "E23bit29one": 1629,
+      "d23": 9830400,
+      "d25": 552701,
+      "row21": 6198,
+      "target": "5886b21a"
+    },
+    {
+      "E22bit29zero": 3335,
+      "E23bit29one": 1634,
+      "d23": 9830400,
+      "d25": 1048576,
+      "row21": 6700,
+      "target": "5886b21b"
+    },
+    {
+      "E22bit29zero": 3769,
+      "E23bit29one": 1886,
+      "d23": 9830400,
+      "d25": 776844,
+      "row21": 7548,
+      "target": "5886b21e"
+    },
+    {
+      "E22bit29zero": 1764,
+      "E23bit29one": 884,
+      "d23": 9830400,
+      "d25": 415934,
+      "row21": 3608,
+      "target": "5886b21f"
+    },
+    {
+      "E22bit29zero": 2224,
+      "E23bit29one": 1123,
+      "d23": 9830400,
+      "d25": 769424,
+      "row21": 4470,
+      "target": "5886b618"
+    },
+    {
+      "E22bit29zero": 2729,
+      "E23bit29one": 1354,
+      "d23": 9830400,
+      "d25": 579024,
+      "row21": 5510,
+      "target": "5886b619"
+    },
+    {
+      "E22bit29zero": 1529,
+      "E23bit29one": 768,
+      "d23": 9830400,
+      "d25": 404970,
+      "row21": 3145,
+      "target": "5886b61c"
+    },
+    {
+      "E22bit29zero": 2793,
+      "E23bit29one": 1444,
+      "d23": 9830400,
+      "d25": 810080,
+      "row21": 5473,
+      "target": "5886b61d"
+    },
+    {
+      "E22bit29zero": 2022,
+      "E23bit29one": 1032,
+      "d23": 9830400,
+      "d25": 580457,
+      "row21": 4049,
+      "target": "588eb21a"
+    },
+    {
+      "E22bit29zero": 4418,
+      "E23bit29one": 2230,
+      "d23": 9830400,
+      "d25": 808388,
+      "row21": 8895,
+      "target": "588eb21b"
+    },
+    {
+      "E22bit29zero": 862,
+      "E23bit29one": 428,
+      "d23": 9830400,
+      "d25": 344376,
+      "row21": 1729,
+      "target": "588eb21e"
+    },
+    {
+      "E22bit29zero": 2720,
+      "E23bit29one": 1331,
+      "d23": 9830400,
+      "d25": 939328,
+      "row21": 5540,
+      "target": "588eb21f"
+    },
+    {
+      "E22bit29zero": 2344,
+      "E23bit29one": 1186,
+      "d23": 9830400,
+      "d25": 594008,
+      "row21": 4936,
+      "target": "588eb618"
+    },
+    {
+      "E22bit29zero": 5012,
+      "E23bit29one": 2487,
+      "d23": 9830400,
+      "d25": 1056796,
+      "row21": 9827,
+      "target": "588eb619"
+    },
+    {
+      "E22bit29zero": 4427,
+      "E23bit29one": 2204,
+      "d23": 9830400,
+      "d25": 790656,
+      "row21": 8782,
+      "target": "588eb61c"
+    },
+    {
+      "E22bit29zero": 2159,
+      "E23bit29one": 1137,
+      "d23": 9830400,
+      "d25": 500448,
+      "row21": 4338,
+      "target": "588eb61d"
+    }
+  ],
+  "scope": "Supplied tag-specific inverse-tail charts fixing W7..W20 and early state coordinates. These counts do not restrict arbitrary fixed-CV a0/u search.",
+  "solver_root_set_restriction": false
+}

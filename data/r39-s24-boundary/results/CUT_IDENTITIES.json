@@ -1,0 +1,16 @@
+{
+  "eight_A_equivalence": "The eight-A map is bijective, so equality in those coordinates is exactly state equality.",
+  "finite_regression": {
+    "w7": {
+      "all_passed": true,
+      "samples_per_cut": 256,
+      "total_checks": 1024
+    },
+    "w8": {
+      "all_passed": true,
+      "samples_per_cut": 256,
+      "total_checks": 1024
+    }
+  },
+  "theorem": "At cut c, Jpre=P_R,c o P_L,c^-1 and Jsuf=Q_R,c^-1 o Q_L,c. Jpre(X)=Jsuf(X) iff the two recovered CVs from the common left terminal are equal."
+}

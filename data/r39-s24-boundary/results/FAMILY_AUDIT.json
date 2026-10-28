@@ -1,0 +1,36 @@
+{
+  "w7": {
+    "Delta_W37": "10000050",
+    "W38_common": "28028079",
+    "forward_expansion_verified": true,
+    "input": "inputs/FAMILY_67914.json",
+    "left_schedule_sha256": "1daf877cc476a708afe361c17def33dbf434e991d0e521209b8b34785db4a97d",
+    "right_schedule_sha256": "e13f1ef112df0653251d4c38c97ecde206908eb0c70c4ee44fd75eb76524ca21",
+    "support_W0_W38": [
+      6,
+      7,
+      9,
+      14,
+      22,
+      23,
+      37
+    ]
+  },
+  "w8": {
+    "Delta_W37": "6cdc5c70",
+    "W38_common": "8c81fe1a",
+    "forward_expansion_verified": true,
+    "input": "inputs/FAMILY_68914.json",
+    "left_schedule_sha256": "edc5b1be326ef3082541d5b374f034502096e572a4a775edb84e70744637a788",
+    "right_schedule_sha256": "f57b859e4b3914314b9fabf162c669e7d0f2909d13162a13ac5c37d38fa7e525",
+    "support_W0_W38": [
+      6,
+      8,
+      9,
+      14,
+      22,
+      23,
+      37
+    ]
+  }
+}

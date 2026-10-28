@@ -1,0 +1,3796 @@
+{
+  "examples": [
+    {
+      "all_nonempty_proper_subsets_fail": true,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 12,
+          "sign": 1,
+          "word": 12
+        },
+        {
+          "bit": 5,
+          "sign": 1,
+          "word": 27
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": "Z10_core:fixed_initial_xor:00017",
+        "probes": 33,
+        "status": "LOCAL_VALID_MOVE_DOES_NOT_COMPOSE_WITH_ALL_PROBES",
+        "valid_composition_mask": "1fffdffff",
+        "valid_compositions": 32
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "2": 1
+      },
+      "family": "Z10",
+      "id": "Z10_core:fixed_initial_xor:00010",
+      "influence": [
+        {
+          "actual_support": [
+            4,
+            12,
+            13,
+            27,
+            34,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "invariant_modular_state_boundaries": [
+            5
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "14": "e8252220",
+            "28": "b295c890",
+            "34": "2127a66d",
+            "38": "9208bbe6",
+            "39": "ee7e98a2",
+            "40": "04799f07",
+            "5": "00000000",
+            "6": "4309239a"
+          },
+          "preserved_condition_mask": "d253a0bfbf",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ad8e4de3",
+              "old": "95fb8eff"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "042ac37f",
+                "6268a3fa",
+                "4c51eb12",
+                "3eddc55a",
+                "e5c4b244",
+                "d1f1757a",
+                "7413795a",
+                "8dac0598"
+              ],
+              "old": [
+                "ea545bdd",
+                "f060181c",
+                "43816306",
+                "04c20c35",
+                "fe674e92",
+                "6c0e9e4c",
+                "29af62e8",
+                "318c3717"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "f371fc73",
+                "042ac37f",
+                "6268a3fa",
+                "4c51eb12",
+                "196e8f9b",
+                "e5c4b244",
+                "d1f1757a",
+                "7413795a"
+              ],
+              "old": [
+                "f7086374",
+                "ea545bdd",
+                "f060181c",
+                "43816306",
+                "d16fe8bc",
+                "fe674e92",
+                "6c0e9e4c",
+                "29af62e8"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            4,
+            12,
+            13,
+            27,
+            34,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "invariant_modular_state_boundaries": [
+            5
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "14": "d98a3881",
+            "28": "67cfc178",
+            "34": "d386a817",
+            "38": "2c8b7c27",
+            "39": "65554360",
+            "40": "6d573083",
+            "5": "00000000",
+            "6": "7dc7ee95"
+          },
+          "preserved_condition_mask": "e7ec29921f",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "0d41e127",
+              "old": "6ef85f2e"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "05499bc7",
+                "b9519839",
+                "45847de5",
+                "18e20428",
+                "06793b3e",
+                "38da141b",
+                "0b50a1de",
+                "65a8a3fe"
+              ],
+              "old": [
+                "601cd8a7",
+                "95dae41e",
+                "d5ab706f",
+                "5ac176ec",
+                "9096d7c3",
+                "1c2a103b",
+                "e034eaf5",
+                "d0f2190a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "cd47adb2",
+                "05499bc7",
+                "b9519839",
+                "45847de5",
+                "17066745",
+                "06793b3e",
+                "38da141b",
+                "0b50a1de"
+              ],
+              "old": [
+                "a0109d31",
+                "601cd8a7",
+                "95dae41e",
+                "d5ab706f",
+                "70fcf590",
+                "9096d7c3",
+                "1c2a103b",
+                "e034eaf5"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            4,
+            12,
+            13,
+            27,
+            34,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "invariant_modular_state_boundaries": [
+            5
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "14": "13ded2f9",
+            "28": "25aa4510",
+            "34": "65c7663c",
+            "38": "32af8ee8",
+            "39": "cc8711c2",
+            "40": "84d0c4c8",
+            "5": "00000000",
+            "6": "c41f8c70"
+          },
+          "preserved_condition_mask": "9637bc17f",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "376d7883",
+              "old": "20d45364"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "a526c922",
+                "afe89baf",
+                "a4aed407",
+                "3babbe77",
+                "776c6e34",
+                "b3a94ac3",
+                "7b6f73d5",
+                "0da9a636"
+              ],
+              "old": [
+                "69a1d8e0",
+                "9d471547",
+                "bf12f827",
+                "1a9f2dac",
+                "d31e36e5",
+                "5d4260c6",
+                "bfce1121",
+                "e3199e8e"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "f78e80aa",
+                "a526c922",
+                "afe89baf",
+                "a4aed407",
+                "2435b94d",
+                "776c6e34",
+                "b3a94ac3",
+                "7b6f73d5"
+              ],
+              "old": [
+                "735e4462",
+                "69a1d8e0",
+                "9d471547",
+                "bf12f827",
+                "754667b7",
+                "d31e36e5",
+                "5d4260c6",
+                "bfce1121"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            4,
+            12,
+            13,
+            27,
+            34,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "invariant_modular_state_boundaries": [
+            5
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "14": "3a6f0955",
+            "28": "c5b0adc7",
+            "34": "f42ea423",
+            "38": "99e579cc",
+            "39": "1ff582a5",
+            "40": "7989279a",
+            "5": "00000000",
+            "6": "7cab6ef4"
+          },
+          "preserved_condition_mask": "ac0aa07abf",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "968e1a20",
+              "old": "681bf9c4"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "8ea0d689",
+                "e12e2f5c",
+                "b5823a3c",
+                "d475ab9e",
+                "81f14126",
+                "65dc1489",
+                "327454c1",
+                "dd355c54"
+              ],
+              "old": [
+                "9155542c",
+                "78cb5690",
+                "d1f51483",
+                "83cfb154",
+                "80653116",
+                "9240368e",
+                "d851dcdd",
+                "095ab5ac"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "9896beec",
+                "8ea0d689",
+                "e12e2f5c",
+                "b5823a3c",
+                "c2b41b07",
+                "81f14126",
+                "65dc1489",
+                "327454c1"
+              ],
+              "old": [
+                "e11f9976",
+                "9155542c",
+                "78cb5690",
+                "d1f51483",
+                "08259045",
+                "80653116",
+                "9240368e",
+                "d851dcdd"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "12": "2354dd23",
+        "13": "fef861de",
+        "4": "01079e22"
+      },
+      "minimum_atom_weight": 2,
+      "mode": "fixed_initial_xor",
+      "move": {
+        "12": "00001000",
+        "27": "00000020"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da38.bit23",
+        "Da39.bit0"
+      ],
+      "scope": "Z10_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 12,
+            "sign": 1,
+            "word": 12
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffc80000",
+            "row": 29,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 5,
+            "sign": 1,
+            "word": 27
+          },
+          "first_failed_recurrence_row": {
+            "difference": "00180000",
+            "row": 29,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "7968b2d9",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "7968b2d9",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "nonzero",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "nonzero",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "all_nonempty_proper_subsets_fail": true,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 2,
+          "sign": 1,
+          "word": 29
+        },
+        {
+          "bit": 27,
+          "sign": 1,
+          "word": 29
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": null,
+        "probes": 15,
+        "status": "BOUNDED_PAIR_TESTS_ONLY_NO_GROUP_CLAIM",
+        "valid_composition_mask": "7fff",
+        "valid_compositions": 15
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "2": 1
+      },
+      "family": "Z01_Z1",
+      "id": "Z01_Z1_core:fixed_initial_xor:00003",
+      "influence": [
+        {
+          "actual_support": [
+            1,
+            6,
+            14,
+            15,
+            29,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2
+          ],
+          "invariant_modular_state_boundaries": [
+            2
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "16": "7e31e0b6",
+            "2": "00000000",
+            "30": "3a3b2c07",
+            "36": "240f8574",
+            "38": "9266ef35",
+            "39": "8098971d",
+            "40": "2caf2c9f",
+            "7": "3c2e4d74"
+          },
+          "preserved_condition_mask": "a095bf67ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "a199f259",
+              "old": "b0ea025e"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "5315a900",
+                "6ef1c3ef",
+                "60eba422",
+                "b5a27c6d",
+                "8b3cf2b8",
+                "1b1e22ca",
+                "4c0e5a74",
+                "92b761c1"
+              ],
+              "old": [
+                "d38d3e1d",
+                "fc972cda",
+                "2789924f",
+                "91adf919",
+                "7ac3994a",
+                "2e20701a",
+                "ff38903c",
+                "d5cfd9c3"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "b9b088f7",
+                "5315a900",
+                "6ef1c3ef",
+                "60eba422",
+                "661cf2ba",
+                "8b3cf2b8",
+                "1b1e22ca",
+                "4c0e5a74"
+              ],
+              "old": [
+                "951fa468",
+                "d38d3e1d",
+                "fc972cda",
+                "2789924f",
+                "da1ff8c1",
+                "7ac3994a",
+                "2e20701a",
+                "ff38903c"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            1,
+            6,
+            14,
+            15,
+            29,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2
+          ],
+          "invariant_modular_state_boundaries": [
+            2
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "16": "20314e27",
+            "2": "00000000",
+            "30": "5d5c7329",
+            "36": "b847226c",
+            "38": "c52f6c18",
+            "39": "eaaf450b",
+            "40": "958ac8c5",
+            "7": "05924d50"
+          },
+          "preserved_condition_mask": "19eff7aff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "117ccc85",
+              "old": "b0e45a9c"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "baae3c26",
+                "b6925114",
+                "561f057a",
+                "b27d2281",
+                "a7e3ec6b",
+                "e067a718",
+                "28f472e2",
+                "89f498f4"
+              ],
+              "old": [
+                "5001792d",
+                "73bd3d0c",
+                "8b28439a",
+                "0a3a00ed",
+                "e690817a",
+                "ddff826e",
+                "ac30ce0d",
+                "5b0a525a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "3c20bfeb",
+                "baae3c26",
+                "b6925114",
+                "561f057a",
+                "09257223",
+                "a7e3ec6b",
+                "e067a718",
+                "28f472e2"
+              ],
+              "old": [
+                "a9aa772e",
+                "5001792d",
+                "73bd3d0c",
+                "8b28439a",
+                "e7c993d1",
+                "e690817a",
+                "ddff826e",
+                "ac30ce0d"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            1,
+            6,
+            14,
+            15,
+            29,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2
+          ],
+          "invariant_modular_state_boundaries": [
+            2
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "16": "bf3b6497",
+            "2": "00000000",
+            "30": "603357cc",
+            "36": "8cd79186",
+            "38": "62761d9f",
+            "39": "68ee7aa2",
+            "40": "623a0b0e",
+            "7": "b70bfc6f"
+          },
+          "preserved_condition_mask": "fd781eb15f",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ee66e27c",
+              "old": "bb62b677"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "bfb331ba",
+                "aa57254e",
+                "17887fc7",
+                "e02cb50e",
+                "edf29980",
+                "791f849d",
+                "ec4e350e",
+                "0b143f48"
+              ],
+              "old": [
+                "d75d4b18",
+                "c82138d1",
+                "0b744bc6",
+                "6cfb2488",
+                "147277db",
+                "71c9c96c",
+                "a368c3c2",
+                "804b46b9"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "1aefc1f5",
+                "bfb331ba",
+                "aa57254e",
+                "17887fc7",
+                "77f6703f",
+                "edf29980",
+                "791f849d",
+                "ec4e350e"
+              ],
+              "old": [
+                "78d5cafb",
+                "d75d4b18",
+                "c82138d1",
+                "0b744bc6",
+                "de66a4cc",
+                "147277db",
+                "71c9c96c",
+                "a368c3c2"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            1,
+            6,
+            14,
+            15,
+            29,
+            36,
+            38
+          ],
+          "first_changed_base_schedule_word": 0,
+          "first_changed_base_state": 1,
+          "first_changed_partner_schedule_word": 0,
+          "first_changed_partner_state": 1,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2
+          ],
+          "invariant_modular_state_boundaries": [
+            2
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "16": "e7af7315",
+            "2": "00000000",
+            "30": "c79779fd",
+            "36": "c0e85b93",
+            "38": "e4e480e7",
+            "39": "e2ea3afb",
+            "40": "83782e03",
+            "7": "c9d775b1"
+          },
+          "preserved_condition_mask": "710042189f",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ea18f025",
+              "old": "4f02593e"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "cf0401fa",
+                "0ab2a3b9",
+                "adc1d4d7",
+                "582bbc86",
+                "b7e4aed1",
+                "2d8a9ca0",
+                "46150f57",
+                "97a04a26"
+              ],
+              "old": [
+                "2dee3b01",
+                "ee56235e",
+                "23846a80",
+                "98c3e715",
+                "75bbfbcd",
+                "d2666209",
+                "a2ca0c78",
+                "c3ee35e3"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "1452f507",
+                "cf0401fa",
+                "0ab2a3b9",
+                "adc1d4d7",
+                "d82174dc",
+                "b7e4aed1",
+                "2d8a9ca0",
+                "46150f57"
+              ],
+              "old": [
+                "972adb04",
+                "2dee3b01",
+                "ee56235e",
+                "23846a80",
+                "eb9f4004",
+                "75bbfbcd",
+                "d2666209",
+                "a2ca0c78"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "1": "4ab4118d",
+        "14": "18a8ef9a",
+        "15": "20e929e1",
+        "6": "df16d61f"
+      },
+      "minimum_atom_weight": 2,
+      "mode": "fixed_initial_xor",
+      "move": {
+        "29": "08000004"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da7.bit7",
+        "Da7.bit15"
+      ],
+      "scope": "Z01_Z1_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 2,
+            "sign": 1,
+            "word": 29
+          },
+          "first_failed_recurrence_row": {
+            "difference": "00040000",
+            "row": 31,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 27,
+            "sign": 1,
+            "word": 29
+          },
+          "first_failed_recurrence_row": {
+            "difference": "00040000",
+            "row": 31,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "ace5ce51",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "ace5ce51",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "nonzero",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "all_nonempty_proper_subsets_fail": true,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 23,
+          "sign": 1,
+          "word": 10
+        },
+        {
+          "bit": 4,
+          "sign": 1,
+          "word": 23
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": null,
+        "probes": 64,
+        "status": "BOUNDED_PAIR_TESTS_ONLY_NO_GROUP_CLAIM",
+        "valid_composition_mask": "ffffffffffffffff",
+        "valid_compositions": 64
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "2": 1
+      },
+      "family": "S7",
+      "id": "S7_core:fixed_initial_xor:00027",
+      "influence": [
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "7bf9800e",
+            "13": "bcb1fc73",
+            "14": "1086374e",
+            "16": "1ccb8305",
+            "24": "f27f890e",
+            "25": "7482c91a",
+            "38": "2021fdbc",
+            "39": "1f912d6a",
+            "40": "b626b649",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "2af99ae5714fff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "04ee5015",
+                "7c9a0c2c",
+                "43884e60",
+                "f24aff4e",
+                "badaf801",
+                "da298a14",
+                "c2b26c85",
+                "cc150c9e"
+              ],
+              "old": [
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "3919116d",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2",
+                "6ee40641"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "3ae33458",
+                "04ee5015",
+                "7c9a0c2c",
+                "43884e60",
+                "53debf69",
+                "badaf801",
+                "da298a14",
+                "c2b26c85"
+              ],
+              "old": [
+                "8cc58211",
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "7519f7e2",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "06d5a3c5",
+            "13": "b129ae04",
+            "14": "aef85e57",
+            "16": "f8bc90d9",
+            "24": "4d77b219",
+            "25": "53147a35",
+            "38": "e55336d9",
+            "39": "61828abd",
+            "40": "78053c16",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "7e0cf68065c3ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "2881cd4c",
+                "3eed8e22",
+                "c1e1ae1b",
+                "763b59ce",
+                "58a46c6d",
+                "4fa44032",
+                "dcce6231",
+                "273191cb"
+              ],
+              "old": [
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "f9e93d91",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c",
+                "0196c473"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "4b3a9444",
+                "2881cd4c",
+                "3eed8e22",
+                "c1e1ae1b",
+                "783bb92f",
+                "58a46c6d",
+                "4fa44032",
+                "dcce6231"
+              ],
+              "old": [
+                "333fa852",
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "fadd16ed",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "864f384b",
+            "13": "c1a2371c",
+            "14": "b2e09e67",
+            "16": "ee358079",
+            "24": "42591398",
+            "25": "2f972c21",
+            "38": "18ec7499",
+            "39": "843178ed",
+            "40": "adc20abb",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "1194b75423bbff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "f69d618b",
+                "5d9e934b",
+                "aa0facc3",
+                "49194705",
+                "31c36418",
+                "437c25af",
+                "d9d38a0e",
+                "12dc69f8"
+              ],
+              "old": [
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "0e0d5c98",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b",
+                "adbafe8a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "45380586",
+                "f69d618b",
+                "5d9e934b",
+                "aa0facc3",
+                "65804a1e",
+                "31c36418",
+                "437c25af",
+                "d9d38a0e"
+              ],
+              "old": [
+                "e8fa0f3d",
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "3fc968bd",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "938431f8",
+            "13": "b0729b3d",
+            "14": "fce06a52",
+            "16": "f09e6425",
+            "24": "99e33c9a",
+            "25": "7a631680",
+            "38": "83f815d9",
+            "39": "ffcce4de",
+            "40": "33b2d85c",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "4c24e94c7517ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "200a8697",
+                "e2758d1b",
+                "288806da",
+                "23cb3b99",
+                "277219ee",
+                "f92d6dd1",
+                "677ed621",
+                "d93a100a"
+              ],
+              "old": [
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "a5affa0d",
+                "3f4be82a",
+                "493d03be",
+                "8deda355",
+                "8752adee"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "e3c7b46b",
+                "200a8697",
+                "e2758d1b",
+                "288806da",
+                "4ae46cb7",
+                "277219ee",
+                "f92d6dd1",
+                "677ed621"
+              ],
+              "old": [
+                "d0756c37",
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "68a1fddd",
+                "3f4be82a",
+                "493d03be",
+                "8deda355"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "10": "90303fe1",
+        "15": "3fe0b501",
+        "7": "8c053a0e",
+        "8": "c01f4aff"
+      },
+      "minimum_atom_weight": 2,
+      "mode": "fixed_initial_xor",
+      "move": {
+        "10": "00800000",
+        "23": "00000010"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da14.bit31",
+        "Da16.bit7",
+        "Da16.bit31",
+        "Da25.bit7",
+        "Da38.bit0",
+        "Da38.bit23",
+        "Da39.bit31"
+      ],
+      "scope": "S7_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 23,
+            "sign": 1,
+            "word": 10
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffe40000",
+            "row": 25,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 4,
+            "sign": 1,
+            "word": 23
+          },
+          "first_failed_recurrence_row": {
+            "difference": "001c0000",
+            "row": 25,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "c4437b02",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "c01f4aff",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "65b957fd",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "all_nonempty_proper_subsets_fail": false,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 13,
+          "sign": 1,
+          "word": 10
+        },
+        {
+          "bit": 23,
+          "sign": 1,
+          "word": 10
+        },
+        {
+          "bit": 4,
+          "sign": 1,
+          "word": 23
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": "S7_core:fixed_initial_xor:00027",
+        "probes": 64,
+        "status": "LOCAL_VALID_MOVE_DOES_NOT_COMPOSE_WITH_ALL_PROBES",
+        "valid_composition_mask": "fffffffff7ffffff",
+        "valid_compositions": 63
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "3": 1
+      },
+      "family": "S7",
+      "id": "S7_core:fixed_initial_xor:00100",
+      "influence": [
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "83382104",
+            "13": "954b2fc1",
+            "14": "3f9ba851",
+            "16": "8cde810c",
+            "24": "3869c782",
+            "25": "b3d17813",
+            "38": "5e746250",
+            "39": "8a080e9b",
+            "40": "273d39e1",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "719f3647263fff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "917773e4",
+                "02cf93c0",
+                "5f5fe336",
+                "f33eccbe",
+                "f2ebf1ed",
+                "9a0d2985",
+                "53fbaa33",
+                "fa331ad4"
+              ],
+              "old": [
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "3919116d",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2",
+                "6ee40641"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "abf8bbf0",
+                "917773e4",
+                "02cf93c0",
+                "5f5fe336",
+                "f9ba7cd2",
+                "f2ebf1ed",
+                "9a0d2985",
+                "53fbaa33"
+              ],
+              "old": [
+                "8cc58211",
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "7519f7e2",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "05d593c5",
+            "13": "3035107c",
+            "14": "2abcfa8d",
+            "16": "0a8586c1",
+            "24": "b206ed9a",
+            "25": "3597368a",
+            "38": "19a2076a",
+            "39": "2a6bc6c3",
+            "40": "706389c1",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "6317aa610fc3ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "63688132",
+                "c21cbf91",
+                "1f6b3b8c",
+                "956fe030",
+                "86bafa3d",
+                "2bc8230b",
+                "9a94c3de",
+                "dde029f1"
+              ],
+              "old": [
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "f9e93d91",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c",
+                "0196c473"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "435c2193",
+                "63688132",
+                "c21cbf91",
+                "1f6b3b8c",
+                "c1fecfba",
+                "86bafa3d",
+                "2bc8230b",
+                "9a94c3de"
+              ],
+              "old": [
+                "333fa852",
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "fadd16ed",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "804ef825",
+            "13": "8f923392",
+            "14": "c17d16df",
+            "16": "12ac5ac0",
+            "24": "e775d2fd",
+            "25": "0e0ce705",
+            "38": "ab729b21",
+            "39": "fcad284a",
+            "40": "f44f42cb",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "30ead22ac2abff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "8e01312c",
+                "ee007cf3",
+                "d5d066d2",
+                "c143954e",
+                "c5a6c0fe",
+                "d066a713",
+                "0d4d5b32",
+                "ace5611d"
+              ],
+              "old": [
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "0e0d5c98",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b",
+                "adbafe8a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "1cb54df6",
+                "8e01312c",
+                "ee007cf3",
+                "d5d066d2",
+                "a31145b5",
+                "c5a6c0fe",
+                "d066a713",
+                "0d4d5b32"
+              ],
+              "old": [
+                "e8fa0f3d",
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "3fc968bd",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "93c4e2f8",
+            "13": "0df21177",
+            "14": "4b244cfd",
+            "16": "b106ce00",
+            "24": "a4663d5c",
+            "25": "d9888f15",
+            "38": "4582bd74",
+            "39": "14ba99be",
+            "40": "3662b3a7",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "623313d7cb07ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "65b957fd",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "cb7cfbf7",
+                "240f25b6",
+                "461b3ea1",
+                "d4bf175e",
+                "e87470cc",
+                "8e62d283",
+                "f2042d04",
+                "74f0cb6a"
+              ],
+              "old": [
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "a5affa0d",
+                "3f4be82a",
+                "493d03be",
+                "8deda355",
+                "8752adee"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "e617df90",
+                "cb7cfbf7",
+                "240f25b6",
+                "461b3ea1",
+                "7d471e8a",
+                "e87470cc",
+                "8e62d283",
+                "f2042d04"
+              ],
+              "old": [
+                "d0756c37",
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "68a1fddd",
+                "3f4be82a",
+                "493d03be",
+                "8deda355"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "10": "90303fe1",
+        "15": "3fe0b501",
+        "7": "8c053a0e",
+        "8": "c01f4aff"
+      },
+      "minimum_atom_weight": 3,
+      "mode": "fixed_initial_xor",
+      "move": {
+        "10": "00802000",
+        "23": "00000010"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da14.bit31",
+        "Da16.bit7",
+        "Da38.bit23"
+      ],
+      "scope": "S7_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 13,
+            "sign": 1,
+            "word": 10
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffffff80",
+            "row": 25,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 23,
+            "sign": 1,
+            "word": 10
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffe40000",
+            "row": 25,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 4,
+            "sign": 1,
+            "word": 23
+          },
+          "first_failed_recurrence_row": {
+            "difference": "001c0000",
+            "row": 25,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "c4437b02",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "c01f4aff",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "65b957fd",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "all_nonempty_proper_subsets_fail": true,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 5,
+          "sign": 1,
+          "word": 24
+        },
+        {
+          "bit": 7,
+          "sign": 1,
+          "word": 24
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": null,
+        "probes": 64,
+        "status": "BOUNDED_PAIR_TESTS_ONLY_NO_GROUP_CLAIM",
+        "valid_composition_mask": "ffffffffffffffff",
+        "valid_compositions": 64
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "2": 1
+      },
+      "family": "S7",
+      "id": "S7_core:fixed_initial_xor:00010",
+      "influence": [
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 12,
+          "first_changed_base_state": 13,
+          "first_changed_partner_schedule_word": 12,
+          "first_changed_partner_state": 13,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11,
+            12,
+            13
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "00000000",
+            "13": "00000000",
+            "14": "79f1f1ab",
+            "16": "221adad9",
+            "24": "739bcb52",
+            "25": "9df5237a",
+            "38": "cdce0e94",
+            "39": "6657d1fd",
+            "40": "524dfbd4",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "67053cf10fffff",
+          "schedule_difference_invariant": true,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": false,
+              "new": "e5a95801",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "7d28ac82",
+                "9175ff04",
+                "1669101c",
+                "3ca0f19f",
+                "c3cd5e77",
+                "a392884f",
+                "7ae0ad2b",
+                "7d90b833"
+              ],
+              "old": [
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "3919116d",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2",
+                "6ee40641"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "de8879c5",
+                "7d28ac82",
+                "9175ff04",
+                "1669101c",
+                "913daa4a",
+                "c3cd5e77",
+                "a392884f",
+                "7ae0ad2b"
+              ],
+              "old": [
+                "8cc58211",
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "7519f7e2",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 12,
+          "first_changed_base_state": 13,
+          "first_changed_partner_schedule_word": 12,
+          "first_changed_partner_state": 13,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11,
+            12,
+            13
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "00000000",
+            "13": "00000000",
+            "14": "21726644",
+            "16": "6889d39d",
+            "24": "edf4a192",
+            "25": "36b45ef4",
+            "38": "3dc08b9e",
+            "39": "38520bf8",
+            "40": "ea1426f8",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "37b1a861ffffff",
+          "schedule_difference_invariant": true,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": false,
+              "new": "e5a95801",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "71514c09",
+                "e67e3365",
+                "1c291cfa",
+                "74382a48",
+                "ece554a2",
+                "b7517940",
+                "c04a41cb",
+                "bc8195e2"
+              ],
+              "old": [
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "f9e93d91",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c",
+                "0196c473"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "d92b8eaa",
+                "71514c09",
+                "e67e3365",
+                "1c291cfa",
+                "99906e7e",
+                "ece554a2",
+                "b7517940",
+                "c04a41cb"
+              ],
+              "old": [
+                "333fa852",
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "fadd16ed",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 12,
+          "first_changed_base_state": 13,
+          "first_changed_partner_schedule_word": 12,
+          "first_changed_partner_state": 13,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11,
+            12,
+            13
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "00000000",
+            "13": "00000000",
+            "14": "962d7f23",
+            "16": "0f1acb9f",
+            "24": "ed1dd53c",
+            "25": "f0d4c2a0",
+            "38": "245b6528",
+            "39": "95d97381",
+            "40": "fb6cb27b",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "289f0af0efffff",
+          "schedule_difference_invariant": true,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": false,
+              "new": "e5a95801",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "e7756ae7",
+                "612982fa",
+                "6691ab2a",
+                "2443d92b",
+                "3716e040",
+                "4b7e0f61",
+                "98582b1a",
+                "f23d7a88"
+              ],
+              "old": [
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "0e0d5c98",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b",
+                "adbafe8a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "1396bd46",
+                "e7756ae7",
+                "612982fa",
+                "6691ab2a",
+                "6ff17da6",
+                "3716e040",
+                "4b7e0f61",
+                "98582b1a"
+              ],
+              "old": [
+                "e8fa0f3d",
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "3fc968bd",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 12,
+          "first_changed_base_state": 13,
+          "first_changed_partner_schedule_word": 12,
+          "first_changed_partner_state": 13,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11,
+            12,
+            13
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "00000000",
+            "13": "00000000",
+            "14": "e218a841",
+            "16": "ea37a5f5",
+            "24": "b33b9803",
+            "25": "82320b73",
+            "38": "e9c90acd",
+            "39": "cde5ee7d",
+            "40": "ceff6230",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "1c447290afffff",
+          "schedule_difference_invariant": true,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": false,
+              "new": "e5a95801",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "12238c34",
+                "8844920f",
+                "b0e5a4c9",
+                "9a6bb96f",
+                "32328d47",
+                "97050854",
+                "2115d2af",
+                "5a9b69a6"
+              ],
+              "old": [
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "a5affa0d",
+                "3f4be82a",
+                "493d03be",
+                "8deda355",
+                "8752adee"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "1e8a0e07",
+                "12238c34",
+                "8844920f",
+                "b0e5a4c9",
+                "5bc6e4af",
+                "32328d47",
+                "97050854",
+                "2115d2af"
+              ],
+              "old": [
+                "d0756c37",
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "68a1fddd",
+                "3f4be82a",
+                "493d03be",
+                "8deda355"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "10": "90303fe1",
+        "15": "3fe0b501",
+        "7": "8c053a0e",
+        "8": "c01f4aff"
+      },
+      "minimum_atom_weight": 2,
+      "mode": "fixed_initial_xor",
+      "move": {
+        "24": "000000a0"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da25.bit7"
+      ],
+      "scope": "S7_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 5,
+            "sign": 1,
+            "word": 24
+          },
+          "first_failed_recurrence_row": {
+            "difference": "00200000",
+            "row": 26,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 7,
+            "sign": 1,
+            "word": 24
+          },
+          "first_failed_recurrence_row": {
+            "difference": "00200000",
+            "row": 26,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "c4437b02",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "c01f4aff",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "e5a95801",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "all_nonempty_proper_subsets_fail": true,
+      "all_singletons_fail": true,
+      "atoms": [
+        {
+          "bit": 7,
+          "sign": 1,
+          "word": 10
+        },
+        {
+          "bit": 18,
+          "sign": -1,
+          "word": 23
+        },
+        {
+          "bit": 27,
+          "sign": 1,
+          "word": 23
+        }
+      ],
+      "classification": "compensating",
+      "composability": {
+        "first_conflicting_move_id": "S7_core:literal_common_modular:00002",
+        "probes": 64,
+        "status": "LOCAL_VALID_MOVE_DOES_NOT_COMPOSE_WITH_ALL_PROBES",
+        "valid_composition_mask": "ffbfbfbfb6ed8ffb",
+        "valid_compositions": 52
+      },
+      "condition_classification": "condition_wise_compensating",
+      "decompositions_by_weight": {
+        "3": 1
+      },
+      "family": "S7",
+      "id": "S7_core:literal_common_modular:00095",
+      "influence": [
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "b9c6af03",
+            "13": "73bd6814",
+            "14": "39ccf0ab",
+            "16": "71a2135f",
+            "24": "75b755a0",
+            "25": "f2ef7bc1",
+            "38": "7619f714",
+            "39": "6ffe2f33",
+            "40": "10edfed5",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "42db256d0b8bff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ebc6a7ff",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "7481524c",
+                "2aa20684",
+                "27ab4a90",
+                "00b95c4b",
+                "e340b182",
+                "b04444dd",
+                "302f2ac9",
+                "9b079146"
+              ],
+              "old": [
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "3919116d",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2",
+                "6ee40641"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "9c287cc4",
+                "7481524c",
+                "2aa20684",
+                "27ab4a90",
+                "5205c6ed",
+                "e340b182",
+                "b04444dd",
+                "302f2ac9"
+              ],
+              "old": [
+                "8cc58211",
+                "1b7f7d7f",
+                "5cbbf190",
+                "e1482b44",
+                "7519f7e2",
+                "19dfd775",
+                "aba65b01",
+                "98f505d2"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "401efd24",
+            "13": "53c9fc0b",
+            "14": "d0073e0a",
+            "16": "4da73755",
+            "24": "3601e9a6",
+            "25": "08ff34bc",
+            "38": "c2a7f19f",
+            "39": "1cad0ac2",
+            "40": "d61ea9de",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "26a0ae6cf96fff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ebc6a7ff",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "55ae4d33",
+                "19194964",
+                "14588f71",
+                "94ba216f",
+                "db076ce0",
+                "79510cd4",
+                "19d3798f",
+                "4ad08bdd"
+              ],
+              "old": [
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "f9e93d91",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c",
+                "0196c473"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "e521018c",
+                "55ae4d33",
+                "19194964",
+                "14588f71",
+                "85a6cd6c",
+                "db076ce0",
+                "79510cd4",
+                "19d3798f"
+              ],
+              "old": [
+                "333fa852",
+                "490347f1",
+                "dbbeb8fb",
+                "3a7084ba",
+                "fadd16ed",
+                "5314ce7b",
+                "bdc8cec1",
+                "7f72f94c"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "c00a8098",
+            "13": "50539e35",
+            "14": "622d0caa",
+            "16": "7b1b3ae0",
+            "24": "b38dfee7",
+            "25": "7893f653",
+            "38": "cee15569",
+            "39": "ca209bf5",
+            "40": "4ec45c7d",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "5906903bdd27ff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ebc6a7ff",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "b88c8293",
+                "8b93b2bb",
+                "4a7c4983",
+                "fbc9121f",
+                "87391525",
+                "0af1588b",
+                "612a1511",
+                "798ce1e3"
+              ],
+              "old": [
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "0e0d5c98",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b",
+                "adbafe8a"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "a63e5340",
+                "b88c8293",
+                "8b93b2bb",
+                "4a7c4983",
+                "8c0645b0",
+                "87391525",
+                "0af1588b",
+                "612a1511"
+              ],
+              "old": [
+                "e8fa0f3d",
+                "72ac1966",
+                "4572e7d2",
+                "ebac4956",
+                "3fc968bd",
+                "88c5ec5d",
+                "7d47caae",
+                "92917a5b"
+              ]
+            }
+          }
+        },
+        {
+          "actual_support": [
+            7,
+            8,
+            10,
+            15,
+            23,
+            24,
+            38
+          ],
+          "first_changed_base_schedule_word": 10,
+          "first_changed_base_state": 11,
+          "first_changed_partner_schedule_word": 10,
+          "first_changed_partner_state": 11,
+          "invariant_modular_a_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "invariant_modular_state_boundaries": [
+            8,
+            11
+          ],
+          "modular_a_xor_changes_at_selected_cuts": {
+            "11": "00000000",
+            "12": "20048270",
+            "13": "30a59dc7",
+            "14": "3700128e",
+            "16": "12b5005b",
+            "24": "7a886104",
+            "25": "c7668dff",
+            "38": "625e6d3a",
+            "39": "3e2dc502",
+            "40": "98b2a73b",
+            "8": "00000000"
+          },
+          "preserved_condition_mask": "b7f45edd86fff",
+          "schedule_difference_invariant": false,
+          "terminal_schedule_deltas": {
+            "38": {
+              "changed": true,
+              "new": "ebc6a7ff",
+              "old": "e5a95801"
+            },
+            "39": {
+              "changed": false,
+              "new": "00000000",
+              "old": "00000000"
+            }
+          },
+          "terminal_state_deltas": {
+            "39": {
+              "changed": true,
+              "new": [
+                "e1eba74b",
+                "03d3f5f8",
+                "01bf041e",
+                "b081a307",
+                "bbdc3122",
+                "3eb0716b",
+                "950a0f1c",
+                "cbfce069"
+              ],
+              "old": [
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "a5affa0d",
+                "3f4be82a",
+                "493d03be",
+                "8deda355",
+                "8752adee"
+              ]
+            },
+            "40": {
+              "changed": true,
+              "new": [
+                "48c7cb0c",
+                "e1eba74b",
+                "03d3f5f8",
+                "01bf041e",
+                "c3720333",
+                "bbdc3122",
+                "3eb0716b",
+                "950a0f1c"
+              ],
+              "old": [
+                "d0756c37",
+                "dfc66249",
+                "618d98c2",
+                "1ff80468",
+                "68a1fddd",
+                "3f4be82a",
+                "493d03be",
+                "8deda355"
+              ]
+            }
+          }
+        }
+      ],
+      "initial_modular_delta_changed": false,
+      "initial_modular_deltas_after_move": {
+        "10": "90303fe1",
+        "15": "3fe0b501",
+        "7": "8c053a0e",
+        "8": "c01f4aff"
+      },
+      "minimum_atom_weight": 3,
+      "mode": "literal_common_modular",
+      "move": {
+        "10": "00000080",
+        "23": "07fc0000"
+      },
+      "restored_conditions_with_each_singleton_schedule_valid": [],
+      "restored_full_modular_a_boundaries_when_each_atom_fails": [],
+      "restored_selected_condition_bits_when_each_atom_fails": [
+        "Da16.bit31",
+        "Da24.bit31"
+      ],
+      "scope": "S7_core",
+      "singleton_failure_rows": [
+        {
+          "atom": {
+            "bit": 7,
+            "sign": 1,
+            "word": 10
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffffffe0",
+            "row": 25,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 18,
+            "sign": -1,
+            "word": 23
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffffec20",
+            "row": 25,
+            "valid": false
+          }
+        },
+        {
+          "atom": {
+            "bit": 27,
+            "sign": 1,
+            "word": 23
+          },
+          "first_failed_recurrence_row": {
+            "difference": "ffffec00",
+            "row": 25,
+            "valid": false
+          }
+        }
+      ],
+      "status": "EXACT_SCHEDULE_REPLAYED",
+      "universal_core_certificate": [
+        {
+          "difference": "00000000",
+          "row": 16,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 17,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 18,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 19,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 20,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 21,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 22,
+          "valid": true
+        },
+        {
+          "difference": "c4437b02",
+          "row": 23,
+          "valid": true
+        },
+        {
+          "difference": "c01f4aff",
+          "row": 24,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 25,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 26,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 27,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 28,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 29,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 30,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 31,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 32,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 33,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 34,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 35,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 36,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 37,
+          "valid": true
+        },
+        {
+          "difference": "ebc6a7ff",
+          "row": 38,
+          "valid": true
+        },
+        {
+          "difference": "00000000",
+          "row": 39,
+          "valid": true
+        }
+      ]
+    }
+  ],
+  "explicit_S7_nonclosure": {
+    "actual_support_at_zero_chart_point": [
+      7,
+      8,
+      10,
+      15,
+      23,
+      24,
+      25,
+      27,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "family": "S7",
+    "first_failed_recurrence_row": {
+      "difference": "ffffff80",
+      "row": 25,
+      "valid": false
+    },
+    "mode": "fixed_initial_xor",
+    "their_XOR": {
+      "10": "00002000"
+    },
+    "valid_pair_id": "S7_core:fixed_initial_xor:00027",
+    "valid_triple_id": "S7_core:fixed_initial_xor:00100"
+  }
+}

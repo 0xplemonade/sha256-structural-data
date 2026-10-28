@@ -1,0 +1,10 @@
+{
+  "a_coordinate_roundtrips": 2048,
+  "all_checks_passed": true,
+  "cut_identity_checks": 1024,
+  "exhaustive_fibre_values_replayed": 4448,
+  "independent_implementation": true,
+  "schedule_families_replayed": 2,
+  "separator_counterexamples_replayed": 2032,
+  "solver_models_replayed": 0
+}

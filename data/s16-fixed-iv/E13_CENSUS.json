@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETE_E13_CUBE_CENSUS",
+  "cube": {
+    "mask": "f7e10327",
+    "value": "94400321",
+    "free_mask": "081efcd8",
+    "dimension": 15,
+    "members": 32768
+  },
+  "all_members_fixed_IV_S16_merges": true,
+  "support_patterns": [
+    {
+      "support": [
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        18,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "count": 32768
+    }
+  ],
+  "terminal_A_individual_zero_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "terminal_A_prefix_histogram": [
+    32768,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "minimum_total_terminal_A_hamming_weight": 97,
+  "minimum_record": {
+    "cube_index": 26221,
+    "E13": "9c529be9",
+    "W13": "7ffee8c9",
+    "terminal_A_deltas": [
+      "3919a4c4",
+      "1e609690",
+      "47276151",
+      "28484c0c",
+      "42c14094",
+      "c784931a",
+      "a514922d",
+      "d4294938"
+    ],
+    "actual_dW32_through_dW39": [
+      "fb1b8c9e",
+      "0bfe9913",
+      "10eaa3eb",
+      "5fa3c95f",
+      "00a0a64e",
+      "2292dd8f",
+      "f7f18b64",
+      "f95980a6"
+    ]
+  },
+  "canonical_digest": "d412bcda449578d9465a1e3d1f4d4b49e764742fb30d838fc04474e741f5d3f1"
+}

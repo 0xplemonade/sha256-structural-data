@@ -1,0 +1,1139 @@
+{
+  "families": {
+    "w7": {
+      "16": {
+        "a_coordinates": {
+          "planted_X": [
+            "f6d28fb1",
+            "46e567f1",
+            "00cc19a1",
+            "0c2a1e3e",
+            "1b2f9a81",
+            "f2e90c20",
+            "74181cd1",
+            "97a3f66c"
+          ],
+          "target": [
+            "08b7a56e",
+            "15f840db",
+            "1392b236",
+            "6278e0b0",
+            "2fa69af6",
+            "5ff194ab",
+            "a3e9c218",
+            "d873943a"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "f6d28f00",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "b1"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "f6d28fb1",
+            "46e567f1",
+            "00cc19a1",
+            "0c2a1e3e",
+            "1b2f9a81",
+            "f2e90c20",
+            "74181cd1",
+            "97a3f66c"
+          ],
+          "target": [
+            "d873943a",
+            "a3e9c218",
+            "5ff194ab",
+            "2fa69af6",
+            "381c4144",
+            "c2480a6a",
+            "52eca675",
+            "b6c5a68e"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "f6d28fb0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "f6d28f00",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "b1"
+              ]
+            }
+          }
+        }
+      },
+      "24": {
+        "a_coordinates": {
+          "planted_X": [
+            "75fdf9c8",
+            "2c13045f",
+            "9745b899",
+            "40b292d1",
+            "71b3ac07",
+            "716537d7",
+            "363f8099",
+            "188ff85c"
+          ],
+          "target": [
+            "194d1ded",
+            "7cfdd8b3",
+            "8e612454",
+            "2e353d95",
+            "445af210",
+            "fe79051e",
+            "f4c805a8",
+            "304e48f8"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "75fdf9c8",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "75fdf9c8",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "75fdf9c0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "8"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "75fdf900",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "c8"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "75fdf9c8",
+            "2c13045f",
+            "9745b899",
+            "40b292d1",
+            "71b3ac07",
+            "716537d7",
+            "363f8099",
+            "188ff85c"
+          ],
+          "target": [
+            "304e48f8",
+            "f4c805a8",
+            "fe79051e",
+            "445af210",
+            "69d71000",
+            "e3a36ade",
+            "53657a19",
+            "6808418d"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "75fdf9c8",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "75fdf9c8",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "75fdf9c0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "8"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "75fdf900",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "c8"
+              ]
+            }
+          }
+        }
+      },
+      "32": {
+        "a_coordinates": {
+          "planted_X": [
+            "f9142102",
+            "c0abcccb",
+            "1e324a67",
+            "b76b52ef",
+            "9217393b",
+            "0204852b",
+            "93328751",
+            "a4b51974"
+          ],
+          "target": [
+            "2f2e3052",
+            "8dfe2c09",
+            "45de0c3b",
+            "20a3e1a5",
+            "be11e589",
+            "435fd948",
+            "7af12277",
+            "ee3e1675"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "f9142102",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "02"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "f9142102",
+            "c0abcccb",
+            "1e324a67",
+            "b76b52ef",
+            "9217393b",
+            "0204852b",
+            "93328751",
+            "a4b51974"
+          ],
+          "target": [
+            "ee3e1675",
+            "7af12277",
+            "435fd948",
+            "be11e589",
+            "756d0124",
+            "5230954d",
+            "df1fead2",
+            "18e365a9"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "f9142102",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "f9142100",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "02"
+              ]
+            }
+          }
+        }
+      },
+      "8": {
+        "a_coordinates": {
+          "planted_X": [
+            "4e2a26a4",
+            "8278b4fe",
+            "530a7b69",
+            "07bd94fd",
+            "ec97dec0",
+            "339a89a4",
+            "edd4e687",
+            "95cf15c3"
+          ],
+          "target": [
+            "70039074",
+            "5ab67c4a",
+            "ca08ff97",
+            "8709a662",
+            "17086d9c",
+            "bd64a9da",
+            "d3be4a9e",
+            "b8280d31"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "4e2a26a4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "4e2a26a4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "4e2a26a0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "4"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "4e2a2600",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "a4"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "4e2a26a4",
+            "8278b4fe",
+            "530a7b69",
+            "07bd94fd",
+            "ec97dec0",
+            "339a89a4",
+            "edd4e687",
+            "95cf15c3"
+          ],
+          "target": [
+            "b8280d31",
+            "d3be4a9e",
+            "bd64a9da",
+            "17086d9c",
+            "3c100a12",
+            "7f42dec9",
+            "248ebd8f",
+            "562ce16d"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "4e2a26a4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "4e2a26a4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "4e2a26a0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "4"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "4e2a2600",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "a4"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "w8": {
+      "16": {
+        "a_coordinates": {
+          "planted_X": [
+            "5d966bf1",
+            "11154330",
+            "b2b6e907",
+            "50b14ece",
+            "715f401f",
+            "7fbce26d",
+            "2d082f77",
+            "5a19f770"
+          ],
+          "target": [
+            "1c749934",
+            "a0c0d819",
+            "45877764",
+            "7e39cf9e",
+            "2c09ca6a",
+            "1a449769",
+            "e2fa47a9",
+            "2361bdf4"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "5d966b00",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f1"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "5d966bf1",
+            "11154330",
+            "b2b6e907",
+            "50b14ece",
+            "715f401f",
+            "7fbce26d",
+            "2d082f77",
+            "5a19f770"
+          ],
+          "target": [
+            "2361bdf4",
+            "e2fa47a9",
+            "1a449769",
+            "2c09ca6a",
+            "be48a3b8",
+            "1c219ed4",
+            "b0f1f5e5",
+            "265b4c41"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "5d966bf0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "5d966b00",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f1"
+              ]
+            }
+          }
+        }
+      },
+      "24": {
+        "a_coordinates": {
+          "planted_X": [
+            "de4af7f7",
+            "756330e0",
+            "0d184b15",
+            "37862d77",
+            "c5272b85",
+            "4db67931",
+            "a932fd9d",
+            "0ee3134a"
+          ],
+          "target": [
+            "f438039f",
+            "8655f942",
+            "f3baf056",
+            "323f1dda",
+            "260bbb00",
+            "f721c56d",
+            "061af02f",
+            "88e9d072"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "de4af7f6",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "de4af7f4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "3"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "de4af7f0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "7"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "de4af700",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f7"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "de4af7f7",
+            "756330e0",
+            "0d184b15",
+            "37862d77",
+            "c5272b85",
+            "4db67931",
+            "a932fd9d",
+            "0ee3134a"
+          ],
+          "target": [
+            "88e9d072",
+            "061af02f",
+            "f721c56d",
+            "260bbb00",
+            "19cc03b3",
+            "2a8ebcef",
+            "0cdf445a",
+            "c7538201"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "de4af7f6",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "de4af7f4",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "3"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "de4af7f0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "7"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "de4af700",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f7"
+              ]
+            }
+          }
+        }
+      },
+      "32": {
+        "a_coordinates": {
+          "planted_X": [
+            "dbd6485f",
+            "8efdcf66",
+            "7db52c52",
+            "10a1eceb",
+            "193c673f",
+            "23a5cf3f",
+            "82cfa85a",
+            "c2828e45"
+          ],
+          "target": [
+            "f997a2c2",
+            "65f6cb82",
+            "7291edf7",
+            "946c861b",
+            "fe6dda1a",
+            "b6d94dbe",
+            "7eb34c7b",
+            "35033666"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "dbd6485e",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "dbd6485c",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "3"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "dbd64850",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "dbd64800",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "5f"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "dbd6485f",
+            "8efdcf66",
+            "7db52c52",
+            "10a1eceb",
+            "193c673f",
+            "23a5cf3f",
+            "82cfa85a",
+            "c2828e45"
+          ],
+          "target": [
+            "35033666",
+            "7eb34c7b",
+            "b6d94dbe",
+            "fe6dda1a",
+            "5e415b88",
+            "6aa47b72",
+            "117203ec",
+            "58329076"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "dbd6485e",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "1"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "dbd6485c",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "3"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "dbd64850",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "f"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "dbd64800",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "5f"
+              ]
+            }
+          }
+        }
+      },
+      "8": {
+        "a_coordinates": {
+          "planted_X": [
+            "9f3f84e2",
+            "cba83c58",
+            "0062cf99",
+            "23f57a87",
+            "8bd6ff7a",
+            "03a63440",
+            "9d89867f",
+            "965d7a76"
+          ],
+          "target": [
+            "536548a6",
+            "2a0703c3",
+            "03e67eff",
+            "aea710c3",
+            "d92eab0a",
+            "3ba97bc2",
+            "cb927a11",
+            "93ecbb6f"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "9f3f84e2",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "9f3f84e0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "9f3f84e0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "9f3f8400",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "e2"
+              ]
+            }
+          }
+        },
+        "state_words": {
+          "planted_X": [
+            "9f3f84e2",
+            "cba83c58",
+            "0062cf99",
+            "23f57a87",
+            "8bd6ff7a",
+            "03a63440",
+            "9d89867f",
+            "965d7a76"
+          ],
+          "target": [
+            "93ecbb6f",
+            "cb927a11",
+            "3ba97bc2",
+            "d92eab0a",
+            "473fb1f7",
+            "43a243b8",
+            "b8619181",
+            "4b818234"
+          ],
+          "target_kind": "target-relaxed planted control; the target is generally nonzero and is not a collision condition",
+          "widths": {
+            "1": {
+              "fibre_size": 2,
+              "fixed_high": "9f3f84e2",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "0"
+              ]
+            },
+            "2": {
+              "fibre_size": 4,
+              "fixed_high": "9f3f84e0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "4": {
+              "fibre_size": 16,
+              "fixed_high": "9f3f84e0",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "2"
+              ]
+            },
+            "8": {
+              "fibre_size": 256,
+              "fixed_high": "9f3f8400",
+              "genuine_zero_root_count": 0,
+              "genuine_zero_roots": [],
+              "hidden_word": 0,
+              "target_relaxed_root_count": 1,
+              "target_relaxed_roots": [
+                "e2"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "method": "Reach X from the common IV through the left prefix. Relax the residual target to F(X), then exhaustively hide low bits of X[0]. Zero-target counts are recorded separately.",
+  "planted_common_cv": [
+    "6a09e667",
+    "bb67ae85",
+    "3c6ef372",
+    "a54ff53a",
+    "510e527f",
+    "9b05688c",
+    "1f83d9ab",
+    "5be0cd19"
+  ]
+}

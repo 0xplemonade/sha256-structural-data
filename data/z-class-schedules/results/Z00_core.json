@@ -1,0 +1,30 @@
+{
+  "clauses": 14320,
+  "deltas": {
+    "1": "53c8f60d",
+    "16": "655b5c5d",
+    "17": "53c8f60d",
+    "3": "975f6a58",
+    "31": "227488e5",
+    "38": "227488e5",
+    "8": "ac3709f3"
+  },
+  "gates": {
+    "and": 1728,
+    "xor": 2219
+  },
+  "id": "Z00",
+  "integer_replay": true,
+  "model": {
+    "W1": "43ce163a",
+    "W16": "8e4dd349",
+    "W17": "affff16e",
+    "W3": "9ce2bc8c",
+    "W31": "df03ebfb",
+    "W8": "55ac5a52",
+    "d1": "53c8f60d"
+  },
+  "pin_delta": null,
+  "variables": 4171,
+  "verdict": "SAT"
+}

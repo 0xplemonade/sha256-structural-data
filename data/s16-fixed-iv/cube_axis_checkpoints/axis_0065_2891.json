@@ -1,0 +1,11 @@
+{
+  "ordinal": 65,
+  "cube_index": 10385,
+  "E13": "94542729",
+  "candidates": 4294967296,
+  "root_count": 0,
+  "roots": [],
+  "low16_zero_count": 65362,
+  "low24_zero_count": 244,
+  "kernel_seconds": 1.4842045440000005
+}

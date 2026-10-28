@@ -1,0 +1,162 @@
+{
+  "status": "EXACT_S16_FAMILIES_WITH_FIRST_TERMINAL_GATE_ROOTS",
+  "e13_cube": {
+    "status": "COMPLETE_E13_CUBE_CENSUS",
+    "cube": {
+      "mask": "f7e10327",
+      "value": "94400321",
+      "free_mask": "081efcd8",
+      "dimension": 15,
+      "members": 32768
+    },
+    "all_members_fixed_IV_S16_merges": true,
+    "support_patterns": [
+      {
+        "support": [
+          7,
+          8,
+          10,
+          11,
+          13,
+          15,
+          18,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "count": 32768
+      }
+    ],
+    "terminal_A_individual_zero_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "terminal_A_prefix_histogram": [
+      32768,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "minimum_total_terminal_A_hamming_weight": 97,
+    "minimum_record": {
+      "cube_index": 26221,
+      "E13": "9c529be9",
+      "W13": "7ffee8c9",
+      "terminal_A_deltas": [
+        "3919a4c4",
+        "1e609690",
+        "47276151",
+        "28484c0c",
+        "42c14094",
+        "c784931a",
+        "a514922d",
+        "d4294938"
+      ],
+      "actual_dW32_through_dW39": [
+        "fb1b8c9e",
+        "0bfe9913",
+        "10eaa3eb",
+        "5fa3c95f",
+        "00a0a64e",
+        "2292dd8f",
+        "f7f18b64",
+        "f95980a6"
+      ]
+    },
+    "canonical_digest": "d412bcda449578d9465a1e3d1f4d4b49e764742fb30d838fc04474e741f5d3f1"
+  },
+  "base_W18_axis": {
+    "candidates": 4294967296,
+    "A32_roots": 0,
+    "low16_zero_count": 65612,
+    "low24_zero_count": 239,
+    "kernel_seconds": 1.3526040000000001
+  },
+  "bounded_cartesian_scan": {
+    "axes": 256,
+    "candidates_per_axis": 4294967296,
+    "total_candidates": 1099511627776,
+    "A32_roots": 261,
+    "A32_A33_roots": 0,
+    "S40_collisions": 0,
+    "low16_zero_count": 16774448,
+    "low24_zero_count": 65623,
+    "canonical_digest": "efdc6482fdda65dc0a558a2b2261c4ec8c285f04181dcffdc86513c8f3ce2b4a",
+    "root_supports": [
+      {
+        "support": [
+          7,
+          8,
+          10,
+          11,
+          13,
+          15,
+          18,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "count": 261
+      }
+    ]
+  },
+  "coordinate_theorem": {
+    "E13_cube_bits": 15,
+    "W18_axis_bits": 32,
+    "cartesian_family_bits": 47,
+    "W18_reconstruction": "W18 -> unique W16 via sigma1^-1 -> unique common W14 via sigma1^-1",
+    "proposed_W20_W22_direction": "Generic axis members activate both W20 and W22 while preserving S16."
+  },
+  "evidence_boundary": {
+    "exact_2p15_cube": true,
+    "exact_2p32_W18_axis": true,
+    "exact_2p47_cartesian_family": true,
+    "complete_2p40_bounded_scan": true,
+    "complete_2p47_scan": false,
+    "A32_constructed": true,
+    "A33_constructed": false,
+    "S40_collision": false,
+    "attack_bound": false
+  }
+}

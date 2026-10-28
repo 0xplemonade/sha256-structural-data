@@ -1,0 +1,10 @@
+{
+  "offset": 2080374784,
+  "count": 67108864,
+  "roots": [],
+  "root_count": 0,
+  "kernel_seconds": 0.02113024,
+  "device": "NVIDIA GeForce GTX 1070 Ti",
+  "low16_zero_count": 1039,
+  "low24_zero_count": 5
+}

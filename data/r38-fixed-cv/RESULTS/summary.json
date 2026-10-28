@@ -1,0 +1,96 @@
+{
+  "W21_independent_in_fixed_CV_search": false,
+  "benchmark_cases": 24,
+  "charged_computation_per_genuine_terminal_candidate": null,
+  "charged_computation_reason": "Solver work has no audited word-RAM conversion and canonical recovery produced no accepted terminal candidate.",
+  "complete_search_queries": 144,
+  "coordinate_bindings_in_canonical_search": false,
+  "genuine_terminal_accepted_solver_candidates": 0,
+  "hidden_recovery_requirement_met": false,
+  "hidden_terminal_cases_recovered": 0,
+  "hidden_terminal_known_sat_cases": 16,
+  "ordinary_collision": null,
+  "results": {
+    "hidden_terminal_free_cv": {
+      "carry_cnf": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      },
+      "carry_xor": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      },
+      "full_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      },
+      "progressive_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      },
+      "reduced_bits_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      },
+      "reduced_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 16
+        }
+      }
+    },
+    "sampled_fixed_iv": {
+      "carry_cnf": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      },
+      "carry_xor": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      },
+      "full_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      },
+      "progressive_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      },
+      "reduced_bits_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      },
+      "reduced_bv": {
+        "genuine_terminal_accepted": 0,
+        "results": {
+          "unknown": 8
+        }
+      }
+    }
+  },
+  "sampled_fixed_iv_cases": 8,
+  "score": null,
+  "solver_resource_units_are_audited_word_ram": false,
+  "standard_IV_first_block_plus_terminal_pair_verified": false,
+  "tail_probability": null
+}

@@ -1,0 +1,88 @@
+{
+  "dW39": "00000000",
+  "delta_family_exact_lower_bound_log2": 16,
+  "files": [
+    {
+      "bytes": 3943,
+      "path": "z10_core.py",
+      "sha256": "cfe07c9dfcf31d087154c44e2c7dd84b1a03c261443f8f6064954b6b269b2d36"
+    },
+    {
+      "bytes": 3870,
+      "path": "lift_z10.py",
+      "sha256": "ad826ca68003202edaea55e7d5284355b2e81136450e53f5b5ed053a28596a9a"
+    },
+    {
+      "bytes": 5896,
+      "path": "z10_family.py",
+      "sha256": "92ffaecdcc05ef123cf69027f5861c8b4133498ff50cf28ead831e996dff777b"
+    },
+    {
+      "bytes": 3568,
+      "path": "verify_z10.py",
+      "sha256": "e12db075144b65dfd34169156ece26c58f401c84ff9c9f6dc291b8532497aa1a"
+    },
+    {
+      "bytes": 440,
+      "path": "results/Z10_core.json",
+      "sha256": "ea2d73b9dc8c31f2af1c762265d2e020c86ff00e71987fb78ee46725c240a84c"
+    },
+    {
+      "bytes": 2303,
+      "path": "results/Z10_witness.json",
+      "sha256": "746763126f49a29f3be2ac56f7334c6a78fb9a7f75ca211c569bcc0fec2cfa88"
+    },
+    {
+      "bytes": 3103,
+      "path": "results/Z10_family.json",
+      "sha256": "ed9c4459122a24be4e1759c4c03dfea4c1264f807e3dce71780cb41eaf5994e4"
+    },
+    {
+      "bytes": 346,
+      "path": "results/Z10_verification.json",
+      "sha256": "8865ca4d25e7f5654aef4156c49c2bfccb9cfe060c0638cd093cd95f456e1e7c"
+    },
+    {
+      "bytes": 118156,
+      "path": "formulas/Z10_core.cnf",
+      "sha256": "fc1bc963f967a81ad9bff386791ddff9f277da21558cd51cc681527d35084c91"
+    },
+    {
+      "bytes": 2929,
+      "path": "formulas/Z10_core_map.json",
+      "sha256": "02a5ffaac0d766079cc8a626e1629b8c3924d54c60818508be72040a155ba02b"
+    },
+    {
+      "bytes": 11699,
+      "path": "formulas/Z10_core_cadical195.sol",
+      "sha256": "53a038395a9cc0d35314b9ca8f00d5c4ac529c65cb69408ca7751368888df56b"
+    },
+    {
+      "bytes": 855074,
+      "path": "formulas/Z10_lift.cnf",
+      "sha256": "fa0fc137342fc6b053b089b711b3483c0682ec029fde36a124916b6b032bc7c8"
+    },
+    {
+      "bytes": 9328,
+      "path": "formulas/Z10_lift_map.json",
+      "sha256": "a473e8df4e0ac906a50a84e30f446a872d2748b27b52ac370cf57aa1459fa93b"
+    },
+    {
+      "bytes": 84395,
+      "path": "formulas/Z10_lift_cadical195.sol",
+      "sha256": "912405b034800b345ab2b3f43d357c5ad6708693174ef1b235fd06bdcb940f06"
+    }
+  ],
+  "schedule_family_log2": 384,
+  "state_claim": false,
+  "status": "FROZEN_Z10_SCHEDULE_WITNESS_AND_2P384_FAMILY",
+  "support": [
+    4,
+    12,
+    13,
+    27,
+    34,
+    36,
+    38
+  ]
+}

@@ -1,0 +1,2598 @@
+{
+ "enumeration": {
+  "cap": 10,
+  "counts_by_weight": {
+   "7": 19,
+   "8": 56,
+   "9": 211,
+   "10": 1185
+  },
+  "matches_prior_counts": true,
+  "prior_counts": {
+   "1": 0,
+   "10": 1185,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 19,
+   "8": 56,
+   "9": 211
+  },
+  "minimum_weight": 7,
+  "weight7_set_matches_prior": true
+ },
+ "k_rule": {
+  "statement": "k = |S & {23,24,32,37}|: k=0 -> dW39=0; k=1 -> dW39 != 0 always; k>=2 -> dW39=0 is one 32-bit equation in >= 64 bits of freedom",
+  "reason": "s0 and s1 are bijections, so ds(fn, W, d) = 0 iff d = 0",
+  "bijectivity_sweep": [
+   {
+    "delta": "8ddbea03",
+    "zeros_found_in_65536_base_words": 0
+   },
+   {
+    "delta": "03010000",
+    "zeros_found_in_65536_base_words": 0
+   },
+   {
+    "delta": "a0e2da0e",
+    "zeros_found_in_65536_base_words": 0
+   },
+   {
+    "delta": "00000001",
+    "zeros_found_in_65536_base_words": 0
+   }
+  ]
+ },
+ "grid": {
+  "Z": {
+   "total": 664,
+   "with_W39": 0,
+   "w7": 15,
+   "w8": 32,
+   "w9": 100,
+   "w10": 517
+  },
+  "C": {
+   "total": 620,
+   "with_W39": 81,
+   "w7": 3,
+   "w8": 13,
+   "w9": 78,
+   "w10": 526
+  },
+  "X": {
+   "total": 187,
+   "with_W39": 187,
+   "w7": 1,
+   "w8": 11,
+   "w9": 33,
+   "w10": 142
+  }
+ },
+ "known_supports": {
+  "published_r39": {
+   "support": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    17,
+    24,
+    26,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 1,
+   "class": "X",
+   "dW39": "forced nonzero",
+   "terminal_open": "h-only only (dS39 = (0..0,-dW39)): needs an 8-word pullback boundary",
+   "exact_state": "UNSAT for dS39 = 0 with dW39 = 0 (k=1)"
+  },
+  "T7": {
+   "support": [
+    8,
+    9,
+    11,
+    16,
+    24,
+    25,
+    39
+   ],
+   "weight": 7,
+   "has_W39": true,
+   "k_late": 1,
+   "class": "X",
+   "dW39": "forced nonzero",
+   "terminal_open": "h-only only (dS39 = (0..0,-dW39)): needs an 8-word pullback boundary",
+   "exact_state": "EXACT_UNSAT (prior proof)"
+  },
+  "T8": {
+   "support": [
+    0,
+    8,
+    9,
+    11,
+    16,
+    24,
+    25,
+    39
+   ],
+   "weight": 8,
+   "has_W39": true,
+   "k_late": 1,
+   "class": "X",
+   "dW39": "forced nonzero",
+   "terminal_open": "h-only only (dS39 = (0..0,-dW39)): needs an 8-word pullback boundary",
+   "exact_state": "chart exists, k=1"
+  },
+  "H7": {
+   "support": [
+    0,
+    9,
+    10,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op",
+   "exact_state": "EXACT_UNSAT (prior proof)"
+  }
+ },
+ "class_Z_candidates": [
+  {
+   "support": [
+    0,
+    9,
+    10,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    3,
+    8,
+    16,
+    17,
+    31,
+    38
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    6,
+    14,
+    15,
+    29,
+    36,
+    38
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    9,
+    10,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    3,
+    5,
+    10,
+    18,
+    19,
+    33
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    4,
+    5,
+    10,
+    18,
+    19,
+    33
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    10,
+    11,
+    13,
+    18,
+    26,
+    27
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    3,
+    4,
+    6,
+    11,
+    19,
+    20,
+    34
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    3,
+    5,
+    6,
+    11,
+    19,
+    20,
+    34
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    5,
+    7,
+    12,
+    20,
+    21,
+    35
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    6,
+    7,
+    12,
+    20,
+    21,
+    35
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    12,
+    13,
+    27,
+    34,
+    36,
+    38
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    6,
+    8,
+    13,
+    21,
+    22,
+    36
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    7,
+    8,
+    13,
+    21,
+    22,
+    36
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    12,
+    13,
+    19,
+    26,
+    27,
+    33
+   ],
+   "weight": 7,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    1,
+    3,
+    5,
+    10,
+    18,
+    19,
+    33
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    1,
+    3,
+    8,
+    16,
+    17,
+    31,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    1,
+    6,
+    14,
+    15,
+    29,
+    36,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    1,
+    9,
+    10,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    1,
+    10,
+    11,
+    13,
+    18,
+    26,
+    27
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    2,
+    3,
+    8,
+    16,
+    17,
+    31,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    2,
+    9,
+    11,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    3,
+    11,
+    12,
+    14,
+    19,
+    27,
+    28
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    6,
+    13,
+    14,
+    20,
+    27,
+    28,
+    34
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    0,
+    12,
+    14,
+    19,
+    26,
+    27,
+    28,
+    33
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    2,
+    3,
+    8,
+    16,
+    17,
+    31,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    2,
+    9,
+    11,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    2,
+    11,
+    12,
+    14,
+    19,
+    27,
+    28
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    3,
+    9,
+    11,
+    12,
+    17,
+    25,
+    26
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    1,
+    7,
+    14,
+    15,
+    21,
+    28,
+    29,
+    35
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    3,
+    4,
+    5,
+    10,
+    18,
+    19,
+    33
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    3,
+    10,
+    12,
+    13,
+    18,
+    26,
+    27
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    3,
+    12,
+    13,
+    15,
+    20,
+    28,
+    29
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    2,
+    4,
+    10,
+    12,
+    13,
+    18,
+    26,
+    27
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    3,
+    4,
+    5,
+    6,
+    11,
+    19,
+    20,
+    34
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    3,
+    4,
+    13,
+    14,
+    16,
+    21,
+    29,
+    30
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    3,
+    5,
+    11,
+    13,
+    19,
+    26,
+    27,
+    33
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    5,
+    6,
+    7,
+    12,
+    20,
+    21,
+    35
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    5,
+    12,
+    13,
+    19,
+    26,
+    27,
+    33
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    4,
+    6,
+    12,
+    19,
+    20,
+    26,
+    33,
+    34
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    6,
+    7,
+    8,
+    13,
+    21,
+    22,
+    36
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    6,
+    8,
+    13,
+    21,
+    22,
+    36,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    6,
+    12,
+    19,
+    20,
+    26,
+    33,
+    34
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    7,
+    8,
+    13,
+    21,
+    22,
+    36,
+    38
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    5,
+    7,
+    13,
+    20,
+    21,
+    27,
+    34,
+    35
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    6,
+    7,
+    13,
+    20,
+    21,
+    27,
+    34,
+    35
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  },
+  {
+   "support": [
+    7,
+    8,
+    22,
+    29,
+    31,
+    33,
+    35,
+    36
+   ],
+   "weight": 8,
+   "has_W39": false,
+   "k_late": 0,
+   "class": "Z",
+   "dW39": "forced zero",
+   "terminal_open": "full common (dS39 = 0, dW39 = 0): last round is a no-op"
+  }
+ ],
+ "class_C_candidates": [
+  {
+   "support": [
+    6,
+    7,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 8,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 8,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    8,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 8,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    7,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    7,
+    9,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    7,
+    9,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    6,
+    13,
+    22,
+    24,
+    26,
+    31,
+    37,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    9,
+    14,
+    22,
+    23,
+    37,
+    38,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    38,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    15,
+    17,
+    19,
+    24,
+    26,
+    28,
+    32,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    8,
+    22,
+    23,
+    25,
+    27,
+    30,
+    32,
+    39
+   ],
+   "weight": 9,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    1,
+    7,
+    8,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    1,
+    7,
+    9,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    4,
+    8,
+    10,
+    16,
+    17,
+    18,
+    24,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    7,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    7,
+    9,
+    14,
+    22,
+    23,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    7,
+    14,
+    23,
+    25,
+    27,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    6,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    7,
+    8,
+    9,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    7,
+    9,
+    22,
+    23,
+    25,
+    27,
+    30,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    8,
+    9,
+    23,
+    24,
+    26,
+    28,
+    31,
+    33,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    8,
+    9,
+    23,
+    30,
+    32,
+    34,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    0,
+    8,
+    11,
+    16,
+    24,
+    27,
+    29,
+    32,
+    34,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    3,
+    9,
+    16,
+    17,
+    23,
+    30,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    4,
+    8,
+    10,
+    16,
+    17,
+    18,
+    24,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    5,
+    6,
+    15,
+    16,
+    18,
+    23,
+    31,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    6,
+    14,
+    15,
+    29,
+    30,
+    32,
+    34,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    7,
+    8,
+    9,
+    10,
+    15,
+    23,
+    24,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    7,
+    9,
+    15,
+    22,
+    23,
+    29,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    8,
+    9,
+    15,
+    22,
+    23,
+    29,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    9,
+    10,
+    24,
+    25,
+    27,
+    29,
+    32,
+    34,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    9,
+    10,
+    24,
+    31,
+    33,
+    35,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    1,
+    10,
+    14,
+    21,
+    23,
+    26,
+    29,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    3,
+    9,
+    16,
+    17,
+    23,
+    30,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    4,
+    10,
+    17,
+    18,
+    24,
+    31,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    6,
+    10,
+    14,
+    16,
+    22,
+    23,
+    24,
+    30,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    7,
+    9,
+    10,
+    15,
+    16,
+    24,
+    30,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    9,
+    10,
+    16,
+    23,
+    24,
+    30,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    2,
+    11,
+    15,
+    22,
+    24,
+    27,
+    30,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    3,
+    4,
+    10,
+    17,
+    18,
+    24,
+    31,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    3,
+    7,
+    11,
+    15,
+    17,
+    23,
+    24,
+    25,
+    31,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    4,
+    5,
+    12,
+    21,
+    23,
+    25,
+    30,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    4,
+    5,
+    19,
+    26,
+    28,
+    30,
+    32,
+    33,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    4,
+    8,
+    9,
+    10,
+    16,
+    17,
+    18,
+    24,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    4,
+    12,
+    13,
+    27,
+    28,
+    30,
+    32,
+    35,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    6,
+    13,
+    22,
+    24,
+    26,
+    31,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    8,
+    9,
+    13,
+    14,
+    21,
+    23,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    8,
+    9,
+    13,
+    14,
+    23,
+    24,
+    26,
+    31,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    10,
+    13,
+    15,
+    21,
+    22,
+    23,
+    24,
+    29,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    10,
+    13,
+    15,
+    21,
+    22,
+    23,
+    24,
+    36,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    13,
+    21,
+    23,
+    25,
+    27,
+    30,
+    32,
+    36,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    14,
+    16,
+    18,
+    23,
+    25,
+    27,
+    31,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    14,
+    16,
+    18,
+    23,
+    29,
+    31,
+    32,
+    34,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    5,
+    14,
+    16,
+    18,
+    23,
+    29,
+    31,
+    32,
+    36,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    8,
+    9,
+    14,
+    22,
+    23,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    8,
+    21,
+    24,
+    26,
+    31,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    21,
+    22,
+    24,
+    26,
+    29,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    7,
+    21,
+    28,
+    30,
+    32,
+    34,
+    35,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    8,
+    21,
+    22,
+    24,
+    26,
+    29,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    9,
+    10,
+    14,
+    15,
+    22,
+    24,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    9,
+    10,
+    14,
+    15,
+    24,
+    25,
+    27,
+    32,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    10,
+    15,
+    21,
+    23,
+    26,
+    31,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    11,
+    14,
+    16,
+    22,
+    23,
+    24,
+    25,
+    30,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    11,
+    14,
+    16,
+    22,
+    23,
+    24,
+    25,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    15,
+    17,
+    19,
+    24,
+    26,
+    28,
+    32,
+    33,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    15,
+    17,
+    19,
+    24,
+    30,
+    32,
+    33,
+    35,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    6,
+    15,
+    17,
+    19,
+    24,
+    30,
+    32,
+    33,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    8,
+    22,
+    23,
+    25,
+    27,
+    30,
+    32,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    8,
+    22,
+    23,
+    25,
+    27,
+    30,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    10,
+    15,
+    22,
+    23,
+    24,
+    29,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    10,
+    15,
+    23,
+    26,
+    28,
+    31,
+    35,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    12,
+    15,
+    17,
+    23,
+    24,
+    25,
+    26,
+    31,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    12,
+    15,
+    17,
+    23,
+    24,
+    25,
+    26,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    7,
+    13,
+    20,
+    23,
+    25,
+    27,
+    28,
+    32,
+    36,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    8,
+    10,
+    15,
+    22,
+    23,
+    24,
+    29,
+    36,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    8,
+    12,
+    19,
+    21,
+    24,
+    27,
+    29,
+    35,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    9,
+    11,
+    16,
+    23,
+    24,
+    25,
+    30,
+    37,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    9,
+    14,
+    21,
+    23,
+    24,
+    26,
+    29,
+    31,
+    37,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 3,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  },
+  {
+   "support": [
+    10,
+    15,
+    22,
+    24,
+    25,
+    27,
+    30,
+    32,
+    38,
+    39
+   ],
+   "weight": 10,
+   "has_W39": true,
+   "k_late": 2,
+   "class": "C",
+   "dW39": "cancellable",
+   "terminal_open": "both, at the price of one 32-bit cancellation equation"
+  }
+ ],
+ "counts": {
+  "class_Z_total": 664,
+  "class_X_total": 187,
+  "class_C_total": 620,
+  "class_Z_with_W39": 0
+ },
+ "consequence": "the published r39 support, T7 and T8 are all class X: the r40 terminal can only be taken in the h-only form, which the pullback shows is an 8-word boundary.  A usable r40 characteristic needs a class-C late cancellation (or a class-Z support that is not already known UNSAT)."
+}

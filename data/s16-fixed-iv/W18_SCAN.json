@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_2P32_W18_AXIS",
+  "device": "NVIDIA GeForce GTX 1070 Ti",
+  "chunk_bits": 26,
+  "candidates": 4294967296,
+  "kernel_seconds": 1.3526040000000001,
+  "root_count": 0,
+  "roots": [],
+  "low16_zero_count": 65612,
+  "low24_zero_count": 239,
+  "scope": "Exact fixed-IV S16 family with base E12/E13 and bijective W18->W16->W14. Complete only for this axis."
+}
